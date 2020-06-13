@@ -155,6 +155,7 @@
     * Replicate existing role: __Get-AzRoleDefinition__ -Name "Reader" | __ConvertTo-Json__ | Out-File C:\<path-to-file.json>
     * Use __New-AzRoleDefinition__ -InputFile "C:\CustomRoles\{myCustomRole}.json
     * Get-AzRoleDefinition - lists all custom roles created
+    * [Custom Role Tutorial](https://docs.microsoft.com/en-us/azure/role-based-access-control/tutorial-custom-role-powershell)
   - configure access to Azure resources by assigning roles
   - configure management access to Azure
     * Management access using: Conditional Access Policies, Azure MFA, Azure Identitiy Protection (IdP)

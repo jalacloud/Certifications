@@ -3,6 +3,8 @@
 # 1. Deploy and configure infrastructure (40-45%)
 ## Analyze resource utilization and consumption
   - configure diagnostic settings on resources
+    * Enable __guest-level monitoring__ for virtual machines
+    * Requires a "diagnostics storage account" to be created
   - create baseline for resources
     * [security baselines in Azure](https://docs.microsoft.com/en-us/learn/modules/create-security-baselines/)
   - create and test alerts
@@ -27,6 +29,10 @@
     * Secure transfer (HTTPS) enabled by default
     * Cannot change performance tier once SA is created
   - generate shared access signature
+    * Two types of SAS: (1) account-level SAS, (2) service-level SAS
+    * Account-level SAS uses access keys for access. Allows full-access to entire storage account
+    * Service-level SAS uses stored access policies (SAP)
+    * SAP provides granular access to resources and can be deleted to revoke access w/out re-generating SA account access keys
   - implement Azure AD authentication for storage
   - install and use Azure Storage Explorer
   - manage access keys

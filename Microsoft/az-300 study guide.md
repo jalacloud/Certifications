@@ -110,6 +110,10 @@
   - manage Azure Function app settings
     * [Azure Functions](https://docs.microsoft.com/en-us/azure/azure-functions/functions-reference)
     * Config for the Azure Functions app is contained within the __functions.json file.__
+    * Uses __consumption plan__ by default - resources added dynamically
+    * When using app service plan, you manage the scaling of your function app
+    * Uses {appname}.azurewebsites.net namespace
+    * Can be published using code or docker container
   - manage Event Grid
     * Uses publish/subscribe model.
     * Does not need to constantly poll for events.

@@ -86,7 +86,7 @@
   - configure Azure Disk Encryption for VMs
   - implement Azure Backup for VMs
   
-# Implement workloads and security (25-30%)
+# 2. Implement workloads and security (25-30%)
 ## Migrate servers to Azure
   - migrate servers using Azure Migrate
     * [Azure Migrate](https://docs.microsoft.com/en-us/azure/migrate/migrate-services-overview)
@@ -142,3 +142,66 @@
   - troubleshoot RBAC
   - implement Azure Policies
   - assign RBAC Roles
+
+# 3. Create and deploy apps (5-10%)
+## Create web apps by using PaaS
+  - create an Azure app service Web App
+  - create documentation for the API
+  - create an App Service Web App for Containers
+  - create an App Service background task by using WebJobs
+  - enable diagnostics logging
+
+## Design and develop apps that run in containers
+  - configure diagnostic settings on resources
+  - create a container image by using a Dockerfile
+  - create an Azure Kubernetes Service
+  - publish an image to the Azure Container Registry
+  - implement an application that runs on an Azure Container Instance
+  - manage container settings by using code
+
+# 4. Implement authentication and secure data (5-10%)
+## Implement authentication
+  - implement authentication by using certificates, forms-based authentication, tokens, or Windows-integrated authentication
+  - implement multi-factor authentication by using Azure AD
+  - implement OAuth2 authentication
+  - implement Managed Identities for Azure resources Service Principal authentication
+
+## Implement secure data solutions
+  - encrypt and decrypt data at rest and in transit
+  - encrypt data with Always Encrypted
+  - implement Azure Confidential Compute
+    * Use __DC series__ virtual machines. DC series VMs support confidential compute. 
+  - implement SSL/TLS communications
+  - create, read, update, and delete keys, secrets, and certificates by using the KeyVault API
+
+# 5. Develop for the cloud and for Azure storage (15-20%)
+## Configure a message-based integration architecture
+  - configure an app or service to send emails
+  - configure Event Grid
+  - configure the Azure Relay service
+  - create and configure a Notification Hub
+  - create and configure an Event Hub
+  - create and configure a Service Bus
+  - configure queries across multiple products (removed)
+
+## Develop for autoscaling
+  - implement autoscaling rules and patterns (schedule, operational/system metrics)
+  - implement code that addresses singleton application instances
+  - implement code that addresses transient state
+
+## Develop solutions that use Cosmos DB storage
+  - create, read, update, and delete data by using appropriate APIs
+  - implement partitioning schemes
+  - set the appropriate consistency level for operations
+    * Strong
+    * Bounded Staleness
+    * Session
+    * Consistent Prefix
+    * Eventual
+
+## Develop solutions that use a relational database
+  - provision and configure relational databases
+  - configure elastic pools for Azure SQL Database
+  - implement Azure SQL Database managed instances
+    * [SQL Managed Instances](https://docs.microsoft.com/en-us/azure/azure-sql/managed-instance/sql-managed-instance-paas-overview#database-migration)
+  - create, read, update, and delete data tables by using code

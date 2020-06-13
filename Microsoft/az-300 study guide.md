@@ -1,6 +1,6 @@
 # Microsoft Azure Architect Technologies (az-300)
 
-__Deploy and configure infrastructure (40-45%)__
+## Deploy and configure infrastructure (40-45%)
   - Analyze resource utilization and consumption
   - configure diagnostic settings on resources
   - create baseline for resources
@@ -12,7 +12,7 @@ __Deploy and configure infrastructure (40-45%)__
   - monitor for unused resources
     * Azure Adviser provides recommendations for unused/under utilised resources.
   - monitor spend
-    * Cost analysis feature: subscription -> cost management -> cost analysis
+    * Cost analysis feature: __subscription -> cost management -> cost analysis__
   - report on spend
   - utilize Log Search query functions
   - view alerts in Azure Monitor logs

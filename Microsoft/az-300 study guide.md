@@ -182,7 +182,6 @@
   - create and configure a Notification Hub
   - create and configure an Event Hub
   - create and configure a Service Bus
-  - configure queries across multiple products `(removed)`
 
 ## Develop for autoscaling
   - implement autoscaling rules and patterns (schedule, operational/system metrics)

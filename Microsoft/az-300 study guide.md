@@ -20,7 +20,12 @@
 
 ## Create and configure storage accounts
   - configure network access to the storage account
+    * Access from public/private networks are allowed by default
+    * Control access by using the __resource firewall__ within the storage account
+    * Allow access from: __selected networks__ to lock down access to specific VNets
   - create and configure storage account
+    * Secure transfer (HTTPS) enabled by default
+    * Cannot change performance tier once SA is created
   - generate shared access signature
   - implement Azure AD authentication for storage
   - install and use Azure Storage Explorer

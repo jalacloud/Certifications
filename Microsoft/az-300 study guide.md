@@ -39,7 +39,13 @@
   - install and use Azure Storage Explorer
   - manage access keys
   - monitor activity log by using Azure Monitor logs
-  - implement Azure storage replication
+  - implement Azure storage replication (6 types)
+    * Locally Redundant Storage (LRS)
+    * Zone-Redundant Storage (ZRS)
+    * Geo-Redundant Storage (GRS)
+    * Geo-Zone Redundant Storage (GZRS)
+    * Read-Access Geo-Redundant Storage (RA-GRS) -> Not supported by Azure File Shares
+    * Read-Access Geo-Zone Redundant Storage (RA-GZRS)
   - implement Azure storage account failover
 
 ## Create and configure a VM for Windows and Linux
@@ -144,6 +150,9 @@
 
 ## Integrate on premises network with Azure virtual network
   - create and configure Azure VPN Gateway
+    * Microsoft recommend __/27__ (or larger) for configuring VPN _GatewaySubnets_ when trying to save address space
+    * /27 is the smallest option possible for GatewaySubnet subnet configuration
+    
   - create and configure site to site VPN
   - configure ExpressRoute
   - configure Virtual WAN

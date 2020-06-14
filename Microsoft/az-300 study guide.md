@@ -30,6 +30,7 @@
     * Cannot change performance tier once SA is created
     * Soft Delete can be enabled for __File Shares__
       * Retention configured by user/admin
+    * Configue soft-delete for Blob storage in Azure portal -> Blob Service -> __Data Protection__ "Enable Soft Delete"
   - generate shared access signature
     * Two types of SAS: (1) account-level SAS, (2) service-level SAS
     * Account-level SAS uses access keys for access. Allows full-access to entire storage account

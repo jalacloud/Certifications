@@ -28,6 +28,8 @@
   - create and configure storage account
     * Secure transfer (HTTPS) enabled by default
     * Cannot change performance tier once SA is created
+    * Soft Delete can be enabled for __File Shares__
+      * Retention configured by user/admin
   - generate shared access signature
     * Two types of SAS: (1) account-level SAS, (2) service-level SAS
     * Account-level SAS uses access keys for access. Allows full-access to entire storage account
@@ -95,7 +97,12 @@
   - provision VMs
   - create Azure Resource Manager templates
   - configure Azure Disk Encryption for VMs
+    * Requires enabling Azure Key Vault to be used for VM Disk Encryption
+    * Enabled in Azur Key Vault -> __advanced key vault access policy settings__
   - implement Azure Backup for VMs
+    * Uses "Backup Policies" to configure backup schedules and retention times for backed up resources (VMs)
+    * __Soft Delete__ is enabled by default for Azure Backup / Recovery Services Vault (RSV)
+    * Soft Delete for Azure Backup/RSV has a retention period of __14 Days__
   
 # 2. Implement workloads and security (25-30%)
 ## Migrate servers to Azure
@@ -197,6 +204,9 @@
 # 5. Develop for the cloud and for Azure storage (15-20%)
 ## Configure a message-based integration architecture
   - configure an app or service to send emails
+    * Can configure an Azure Logic App (workflow app) to send emails based on events generated from Event Grid
+    * Logic Apps can be used with Azure Event Grid
+    * SendGrid is a feature/service that can send generated emails <-- __find more detailed info on this__ 
   - configure Event Grid
   - configure the Azure Relay service
   - create and configure a Notification Hub

@@ -227,6 +227,9 @@
     * Session
     * Consistent Prefix
     * Eventual
+  [x] __Bonus Info__
+    * CosmosDB SQL API accounts support querying items using SQL as a JSON query
+    * Provides low latency access to data items
 
 ## Develop solutions that use a relational database
   - provision and configure relational databases

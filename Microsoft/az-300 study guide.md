@@ -227,7 +227,7 @@
     * Session
     * Consistent Prefix
     * Eventual
-  [x] __Bonus Info__
+  [x] __Bonus Info:__
     * CosmosDB SQL API accounts support querying items using SQL as a JSON query
     * Provides low latency access to data items
 

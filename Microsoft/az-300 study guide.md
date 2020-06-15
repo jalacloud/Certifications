@@ -105,7 +105,7 @@
   - create Azure Resource Manager templates
   - configure Azure Disk Encryption for VMs
     * Requires enabling Azure Key Vault to be used for VM Disk Encryption
-    * Enabled in Azur Key Vault -> __advanced key vault access policy settings__
+    * Enabled in Azure Key Vault -> __advanced key vault access policy settings__
   - implement Azure Backup for VMs
     * Uses "Backup Policies" to configure backup schedules and retention times for backed up resources (VMs)
     * __Soft Delete__ is enabled by default for Azure Backup / Recovery Services Vault (RSV)
@@ -232,11 +232,16 @@
   - create, read, update, and delete data by using appropriate APIs
   - implement partitioning schemes
   - set the appropriate consistency level for operations
-    * Strong
-    * Bounded Staleness
-    * Session
-    * Consistent Prefix
-    * Eventual
+    * Consistency levels can be overwritten through the SDK for a while client or per-request.
+    * Default consistency levels are configured at the CosmosDB Account level.
+    * Consistency levels are __region agnostic__ and are guaranteed for __all__ read operations.
+    * Strong: reads are guaranteed to return most recent committed version of item.
+    * Bounded Staleness: consistent to an agreed amaount: 
+      * reads might lag behind writes by at most [number] version of an item;
+      * reads might lag behind writes for an [amount] amount of time
+    * Session: reads guaranteed to honor writes for a given client session.
+    * Consistent Prefix: guarantees that reads NEVER see out-of-order writes.
+    * Eventual: no guarantee about order of reads; replicas with _eventually_ converge.
   - __Bonus Info:__
     * CosmosDB SQL API accounts support querying items using SQL as a JSON query
     * Provides low latency access to data items

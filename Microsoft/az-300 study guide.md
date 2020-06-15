@@ -235,13 +235,13 @@
     * Consistency levels can be overwritten through the SDK for a while client or per-request.
     * Default consistency levels are configured at the CosmosDB Account level.
     * Consistency levels are __region agnostic__ and are guaranteed for __all__ read operations.
-    * Strong: reads are guaranteed to return most recent committed version of item.
-    * Bounded Staleness: consistent to an agreed amaount: 
+    * __1. Strong__: reads are guaranteed to return most recent committed version of item.
+    * __2. Bounded Staleness__: consistent to an agreed amaount: 
       * reads might lag behind writes by at most [number] version of an item;
       * reads might lag behind writes for an [amount] amount of time
-    * Session: reads guaranteed to honor writes for a given client session.
-    * Consistent Prefix: guarantees that reads NEVER see out-of-order writes.
-    * Eventual: no guarantee about order of reads; replicas with _eventually_ converge.
+    * __3. Session__: reads guaranteed to honor writes for a given client session.
+    * __4. Consistent Prefix__: guarantees that reads NEVER see out-of-order writes.
+    * __5. Eventual__: no guarantee about order of reads; replicas with _eventually_ converge.
   - __Bonus Info:__
     * CosmosDB SQL API accounts support querying items using SQL as a JSON query
     * Provides low latency access to data items

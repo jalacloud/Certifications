@@ -32,7 +32,10 @@
       * Retention configured by user/admin
     * Configue soft-delete for Blob storage in Azure portal -> Blob Service -> __Data Protection__ "Enable Soft Delete"
   - generate shared access signature
-    * Two types of SAS: (1) account-level SAS, (2) service-level SAS
+    * Three (3) types of SAS:
+      * account-level SAS: Uses account keys for access. Grants read/write/delete operations on blobs/tables/queues/files. Re-gen keys if sas is leaked. 
+      * service-level SAS: Granular access. Uses stored access policies (SAP). Access to specific services - more control over access.
+      * user-delegation SAS: secured with Azure AD credentials & a;sp by permissions specified for the SAS. User delegation SAS applied to __Blob__ storage only.
     * Account-level SAS uses access keys for access. Allows full-access to entire storage account
     * Service-level SAS uses stored access policies (SAP)
     * SAP provides granular access to resources and can be deleted to revoke access w/out re-generating SA account access keys

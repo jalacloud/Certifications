@@ -25,20 +25,24 @@
     * Access from public/private networks are allowed by default
     * Control access by using the __resource firewall__ within the storage account
     * Allow access from: __selected networks__ to lock down access to specific VNets
+    * Subnets configured with the "Microsoft.Storage" service endpoint can __privately__ access Azure Storage without traversing the  public internet.
   - create and configure storage account
     * Secure transfer (HTTPS) enabled by default
     * Cannot change performance tier once SA is created
     * Soft Delete can be enabled for __File Shares__
       * Retention configured by user/admin
     * Configue soft-delete for Blob storage in Azure portal -> Blob Service -> __Data Protection__ "Enable Soft Delete"
+    * Azure Storage supports using Azure Active Directory (Azure AD) to authorise requests to Blob and Queue storage.
+    * [Authorise access to blobs/queues using AAD](https://docs.microsoft.com/en-us/azure/storage/common/storage-auth-aad)
   - generate shared access signature
     * Three (3) types of SAS:
-      * account-level SAS: Uses account keys for access. Grants read/write/delete operations on blobs/tables/queues/files. Re-gen keys if sas is leaked. 
-      * service-level SAS: Granular access. Uses stored access policies (SAP). Access to specific services - more control over access.
-      * user-delegation SAS: secured with Azure AD credentials & a;sp by permissions specified for the SAS. User delegation SAS applied to __Blob__ storage only.
-    * Account-level SAS uses access keys for access. Allows full-access to entire storage account
-    * Service-level SAS uses stored access policies (SAP)
-    * SAP provides granular access to resources and can be deleted to revoke access w/out re-generating SA account access keys
+      * __account-level SAS__: Uses account keys for access. Grants read/write/delete operations on blobs/tables/queues/files. Re-gen keys if sas is leaked. Can also grant permissions to services (blob/queue/table/files) not permitted with a service SAS.
+      * __service-level SAS__: Granular access. Uses stored access policies (SAP). Access to specific services - more control over access.
+      * __user-delegation SAS__: secured with Azure AD credentials and also by the permissions specified for the SAS. User delegation SAS applies to __Blob__ storage only.
+      * [Types of SAS](https://docs.microsoft.com/en-us/azure/storage/common/storage-sas-overview)
+    * Account-level SAS uses access keys for access. Scope of access applies to entire storage account and services within the SA.
+    * Service-level SAS uses stored access policies (SAP).
+    * SAP provides granular access to resources and can be deleted to revoke access w/out re-generating SA account access keys.
   - implement Azure AD authentication for storage
   - install and use Azure Storage Explorer
   - manage access keys

@@ -33,7 +33,6 @@
       * Retention configured by user/admin
     * Configue soft-delete for Blob storage in Azure portal -> Blob Service -> __Data Protection__ "Enable Soft Delete"
     * Azure Storage supports using Azure Active Directory (Azure AD) to authorise requests to Blob and Queue storage.
-    * [Authorise access to blobs/queues using AAD](https://docs.microsoft.com/en-us/azure/storage/common/storage-auth-aad)
   - generate shared access signature
     * Three (3) types of SAS:
       * __account-level SAS__: Uses account keys for access. Grants read/write/delete operations on blobs/tables/queues/files. Re-gen keys if sas is leaked. Can also grant permissions to services (blob/queue/table/files) not permitted with a service SAS.
@@ -44,6 +43,9 @@
     * Service-level SAS uses stored access policies (SAP).
     * SAP provides granular access to resources and can be deleted to revoke access w/out re-generating SA account access keys.
   - implement Azure AD authentication for storage
+    * Managed Identities for Azure resources can authorise access to blob and queue data using Azure AD credentials.
+    * Service Principals __must__ be assigned an RBAC role that grants access to blob or queue data in Azure Storage.
+    * [Authorise access to blobs/queues using AAD](https://docs.microsoft.com/en-us/azure/storage/common/storage-auth-aad)
   - install and use Azure Storage Explorer
   - manage access keys
   - monitor activity log by using Azure Monitor logs

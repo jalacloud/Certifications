@@ -106,6 +106,8 @@
   - install and configure Azure AD Connect
   - configure federation
   - configure single sign-on
+    * [Configure SSO](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-sso-quick-start)
+    * Enable SSO option in Azure AD Connect only available for: Pass-through Authentication (PTA) and Password Hash Synchronisation (PHA) authentication method(s).
   - manage and troubleshoot Azure AD Connect
   - troubleshoot password sync and writeback
 	

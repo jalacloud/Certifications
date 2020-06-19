@@ -102,6 +102,8 @@
   - add custom domains
   - configure Azure AD Identity Protection
   - configure Azure AD Join
+    * Supported for Windows 10 operating systems __only__.
+    * [Plan your Azure AD Join Implementation](https://docs.microsoft.com/en-us/azure/active-directory/devices/azureadjoin-plan)
   - configure self-service password reset
   - implement conditional access policies
   - manage multiple directories

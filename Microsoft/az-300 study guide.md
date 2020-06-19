@@ -64,6 +64,11 @@
     * VMs MUST be located within the same region and resource group as the availability set.
     * Virtual Machine Scale Sets (VMSS).
   - configure monitoring
+    * [Enable Azure Monitor for VMs overview](https://docs.microsoft.com/en-us/azure/azure-monitor/insights/vminsights-enable-overview)
+    * [Azure Diagnostics extention overview](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/diagnostics-extension-overview)
+    * Windows and Linux virtual machines support the diagnostic extension agent:
+      * Windows diagnostics extension (WAD)
+      * Linux diagnostics extension (LAD)
   - configure networking
   - configure storage
   - configure virtual machine size

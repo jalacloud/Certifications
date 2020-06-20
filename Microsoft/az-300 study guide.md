@@ -180,10 +180,23 @@
 
 ## Implement multi factor authentication
   - configure user accounts for MFA
+    * User accounts in Azure Multi-Factor Authentication have three distinct states:
+      * __Disabled__: The default state for a new user not enrolled in Azure MFA.
+      * __Enabled__: The user has been enrolled in Azure MFA, but has not registered, They receive a prompt to register next time they sign in.
+      * __Enforced__: The user has been enrolled and has completed the registration process for Azure MFA.
   - configure fraud alerts
   - configure bypass options
+    * Users can bypass MFA according to specific criteria, through Conditional Access Policies (CAP).
+    * Configure __one-time bypass__ in Azure portal: Azure Active Directory -> Security -> MFA -> __One-time bypass__
+      * [MFA one-time bypass](https://docs.microsoft.com/en-us/azure/active-directory/authentication/howto-mfa-server-settings#one-time-bypass)
+    * Trusted IPs - The __trusted IPs__ feature of Azure MFA bypasses multi-factor authentication prompts for users who sign in from a defined IP address range.
+    * _Remember Multi-Factor Authentication_ feature lets users bypass subsequent verifications for a specified number of days, after they've successfully signed-in to a device by using Multi-Factor Authentication. 
   - configure trusted IPs
   - configure verification methods
+    * SMS / Text Message to phone
+    * Call to Phone
+    * Notification through mobile app
+    * Verification code from mobile app or hardware token
 
 ## Manage role-based access control
   - create a custom role

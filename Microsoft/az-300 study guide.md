@@ -100,6 +100,7 @@
   
 ## Manage Azure Active Directory
   - add custom domains
+    * Custom Domains must be verified by adding either an __MX record__ or a __TXT__ record in your DNS service
   - configure Azure AD Identity Protection
   - configure Azure AD Join
     * Supported for Windows 10 operating systems __only__.
@@ -249,6 +250,9 @@
     * Logic Apps can be used with Azure Event Grid
     * SendGrid is a feature/service that can send generated emails <-- __find more detailed info on this__ 
   - configure Event Grid
+    * Uses a publish/subscribe model to save on having servers constantly monitoring and wasting CPU resources.
+    * Events are limited to 64KB of data
+    * Undelivered events expire after 24 hours.
   - configure the Azure Relay service
   - create and configure a Notification Hub
   - create and configure an Event Hub

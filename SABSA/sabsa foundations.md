@@ -24,6 +24,6 @@ SABSA Certification Study // Exam Preparation
       * Manage Change - Confirm links not removed.
       * Knowledge Management - Re-use components. Predictability.
       
-## Section 2 - Business Context & Requirements
+## Section 3 - Business Context & Requirements
   - The Traceability Concept
   - SABSA Attributes

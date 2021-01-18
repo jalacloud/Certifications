@@ -1,5 +1,5 @@
-SABSA Chartered Security Architect
-January 2021
+# SABSA Chartered Security Architect
+### January 2021
 
 ---
 

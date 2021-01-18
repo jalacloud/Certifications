@@ -13,4 +13,8 @@ SABSA Certification Study // Exam Preparation
   - Holistic Approach
   - Features, Benefits, and Advantages
 
-
+## Section 2 - What (Assets)
+  - The SABSA Matrix
+  - The Traceability Concept
+    - Traceability for __Completeness__: Every business requirement for security is met and the residual risk is acceptable to the business appetite.
+    - Tracebility for __Justification__: Every operational or technological security element can be justified by reference to a risk-prioritised business requirement.

@@ -21,6 +21,9 @@ SABSA Certification Study // Exam Preparation
     - Applications of Traceability:
       * Bi-directional - Completeness. Justification.
       * Actuarial Preservation - Controls. Enablers.
-
+      * Manage Change - Confirm links not removed.
+      * Knowledge Management - Re-use components. Predictability.
+      
 ## Section 2 - Business Context & Requirements
-  - 
+  - The Traceability Concept
+  - SABSA Attributes

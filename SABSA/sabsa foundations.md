@@ -35,3 +35,19 @@ SABSA Certification Study // Exam Preparation
 		1. Business Requirements - Business-level assets, goals and objectives.
 		2. Business Drivers for Security - The business requirement abstracted into one or more statements of security-relevance to the business requirement
 - #### SABSA Attributes
+  - __Attributes Customisation__
+    - The Attributes Profile represents the business requirements for security for a specific organisation and should be customised to fully reflect local needs & culture
+    - Customised attribute names
+    - Customised attribute definitions
+    - Customised attribute measures, metrics & performance targets
+    	- Advanced useage involves multiple domain levels with linkage and aggregated performance
+  - Attributes can be tangible or intangible
+  - Provides the "missing link" between business requirements and technology / process design
+  - Powerful requirements engineering technique
+
+## Section 4 - Risk & Opportunity Framework
+- #### Role of Risk Management is Business & Architecture
+- #### Risk Assessment
+- #### Risk Management Process
+- #### Risk Management Systems
+

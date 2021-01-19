@@ -28,6 +28,7 @@ SABSA Certification Study // Exam Preparation
 - #### The Traceability Concept
   - Approach to traceability:
     * Good traceability requires small, credible steps, not big jumps
+    * __Buzzwords__: Credible abstraction, business-drivers, two-way, business drivers for security. 
 - #### Credible abstraction of business requirements
 	- Meaningful traceabiity is enabled by credible abstraction from business context (assets, goals and objective) to a business security context
 	- Traceability therefore starts by delivering two slightly different sets of requirements:

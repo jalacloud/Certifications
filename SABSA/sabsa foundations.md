@@ -47,7 +47,20 @@ SABSA Certification Study // Exam Preparation
 
 ## Section 4 - Risk & Opportunity Framework
 - #### Role of Risk Management is Business & Architecture
+  - Achieve an appropriate balance between realising opportunities for gains while minimising losses/threats.
+  - Defined through 'Opportunities & Threats Inventory' (Contextual/Motivation - SABSA Matrix Cell)
+  - Achieved through analysis of Internal & External Risk Factors
+  - Establish an appropriate infrastructure and culture and apply a logical and systematic method
+  - Embed into the organisation's philosophy, practices and business processes
+  - Accountability assurance & governance
 - #### Risk Assessment
+  - __Advantages of the Impact-based Approach__
+    - Much broader view of the business goals - not just the tangible assets
+    - Provides a good view of business criticality
+    - Allows priorities to be established
+    - Uses language understood by business managers
+    - Involves the business managers in the process
+    - Speed, cost, usability
 - #### Risk Management Process
 - #### Risk Management Systems
 

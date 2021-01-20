@@ -62,7 +62,7 @@ SABSA Certification Study // Exam Preparation
     - Involves the business managers in the process
     - Speed, cost, usability
   - PESTELIM Analysis
-    * __P__olitical Factors
+    * [__P__]olitical Factors
     * __E__conomic Factors
     * __S__ocial Factors
     * __T__echnological Factors

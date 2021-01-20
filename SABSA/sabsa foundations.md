@@ -62,14 +62,14 @@ SABSA Certification Study // Exam Preparation
     - Involves the business managers in the process
     - Speed, cost, usability
   - PESTELIM Analysis
-    * (__P__)olitical Factors
-    * __E__conomic Factors
-    * __S__ocial Factors
-    * __T__echnological Factors
-    * __E__nvironmental Factors
-    * __L__egal Factors
-    * __I__ndustry Factors
-    * __M__ilitary Factors
+    * Political Factors
+    * Economic Factors
+    * Social Factors
+    * Technological Factors
+    * Environmental Factors
+    * Legal Factors
+    * Industry Factors
+    * Military Factors
   - SWOT Analysis (Strengths, Weaknesses, Opportunities, Threats)
 - #### Risk Management Process
   - The SABSA Lifecycle with the addition of Assurance and Govern & Communicate.

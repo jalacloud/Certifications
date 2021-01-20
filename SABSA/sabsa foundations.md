@@ -74,6 +74,18 @@ SABSA Certification Study // Exam Preparation
 - #### Risk Management Process
   - The SABSA Lifecycle with the addition of Assurance and Govern & Communicate.
 - #### Risk Management Systems
+  - SABSA Risk & Opportunity Model
+    - Risk Context: Negative Outcomes vs Positive Outcomes.
+    - Threats vs Opportunities
+    - Loss Event vs Beneficial Event
+    - Impact is expressed as positive or negative consequences of potential events upon Attributes
+    - Negative impact expressed as:
+    	- Reduction in Attribute performance
+	- Failure to meet Attribute performance target
+    - Positive impact expressed as:
+    	- Increase in Attribute performance
+	- Increase in Attribute performance threshold to higher target
+    - Controls (Protect from Negative Consequences) --> __Attribute__ <-- Enablers (Enhance for Positive Consequences)
 
 ## Section 5 - Policy Architecture
 - #### Policy Framework

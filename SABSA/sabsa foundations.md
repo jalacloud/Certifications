@@ -73,6 +73,11 @@ SABSA Certification Study // Exam Preparation
   - SWOT Analysis (Strengths, Weaknesses, Opportunities, Threats)
 - #### Risk Management Process
   - The SABSA Lifecycle with the addition of Assurance and Govern & Communicate.
+  	- Strategy & Planning
+	- Design
+	- Implement
+	- Manage & Measure
+	- Assurance and Governance overlay
 - #### Risk Management Systems
   - SABSA Risk & Opportunity Model
     - Risk Context: Negative Outcomes vs Positive Outcomes.

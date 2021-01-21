@@ -102,5 +102,8 @@ SABSA Certification Study // Exam Preparation
   	- Physical Policy (Builder View): __Procedures & Practices__ for each Risk Strategy (Domain Level)
   	- Component Policy (Tradesman View): Detailed __Standards and Rules__ for each Risk Strategy (Domain Level)
   	- Operational Policy (Service Manager View): Detailed Security __Implementation & Operation Guides__ (Domain Level)
+  - Each Policy Authority in the SABSA Policy Framework is accountable for the risks and opportunities to their own domain-level assets (attributes), goals & objectives
 - #### Policy Domain Concept
+  - A security domain is a set of elements subject to a common security policy defined and owned by a single security policy authority.
+  	- Every domain has a Policy Authority - the owner of risk TO that domain
 - #### Policy Domain Model

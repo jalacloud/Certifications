@@ -94,6 +94,8 @@ SABSA Certification Study // Exam Preparation
 
 ## Section 5 - Policy Architecture
 - #### Policy Framework
+  - The security policy is determined by the business requirements for information management and information systems, following an assessment of the possible operational risks & opportunities
+  - Security policy is a statement of business requirements for security, translated into a logical structure that can be consistently applied, monitored and measured (using Attributes)
   - __ENTERPRISE POLICY:__
   	- Contextual Policy (Business View): Over-arching Business Risk Management Policy (Enterprise Wide)
   	- Conceptual Policy (Architect View): Policies for each Enterprise Risk Stategy (Enterprise Wide) - Sub-domains within Enterprise superdomain

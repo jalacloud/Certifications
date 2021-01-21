@@ -86,7 +86,21 @@ Preparation of Flash Cards
 - 
 
 Policy Architecture - Section 7
-
+- __Drivers for a SABSA Approach__
+  - Issue:
+    * Policy-driven business
+    * Business-inhibiting
+    * Reactive & Unpopular
+    * Pushed by security, audit & compliance check-lists
+    * High maintenance & cost of ownership
+  - SABSA Objectives
+    * Business-driven policy
+    * Business-enabling
+    * Proactive & welcomed
+    * Proportional, prioritised & traceable to business needs
+    * Simplified & hierachical
+    * Multi-layered architecture for ease of use & maintenance
+    * Policy Authority has clear risk ownership & vested interest
 
 KPI - Looks into the past. Previous performance statistics. Cannot reliably predict the future.
 KRI - Looks into the future. 
@@ -94,9 +108,9 @@ KRI - Looks into the future.
 Align SABSA Development Lifecycle to Deming model (PLAN. DO. CHECK. ACT)
 Plan Do Check Act - Deming Model
 
-PLAN = STRATEGY & PLANNING, DESIGN
-DO = IMPLEMENT
-CHECK, ACT = MANAGE & MEASURE
+- PLAN = STRATEGY & PLANNING, DESIGN
+- DO = IMPLEMENT
+- CHECK, ACT = MANAGE & MEASURE
 
 
 

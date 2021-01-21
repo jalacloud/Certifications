@@ -96,6 +96,7 @@ SABSA Certification Study // Exam Preparation
 - #### Policy Framework
   - The security policy is determined by the business requirements for information management and information systems, following an assessment of the possible operational risks & opportunities
   - Security policy is a statement of business requirements for security, translated into a logical structure that can be consistently applied, monitored and measured (using Attributes)
+  - The security policy states what logical services are required by as far as possible avoids any reference to particular physical mechanisms/controls/services
   - __ENTERPRISE POLICY:__
   	- Contextual Policy (Business View): Over-arching Business Risk Management Policy (Enterprise Wide)
   	- Conceptual Policy (Architect View): Policies for each Enterprise Risk Stategy (Enterprise Wide) - Sub-domains within Enterprise superdomain
@@ -109,3 +110,6 @@ SABSA Certification Study // Exam Preparation
   - A security domain is a set of elements subject to a common security policy defined and owned by a single security policy authority.
   	- Every domain has a Policy Authority - the owner of risk TO that domain
 - #### Policy Domain Model
+  - F1 Content, slide 175
+
+## Section 6 - Architectural Strategies

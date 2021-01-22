@@ -44,6 +44,8 @@ SABSA Certification Study // Exam Preparation
   - Attributes can be tangible or intangible
   - Provides the "missing link" between business requirements and technology / process design
   - Powerful requirements engineering technique
+  - Attributes must be measurable
+  - Attributes represent what is most important to any stakeholder
 
 ## Section 4 - Risk & Opportunity Framework
 - #### Role of Risk Management is Business & Architecture
@@ -110,6 +112,12 @@ SABSA Certification Study // Exam Preparation
   - A security domain is a set of elements subject to a common security policy defined and owned by a single security policy authority.
   	- Every domain has a Policy Authority - the owner of risk TO that domain
 - #### Policy Domain Model
-  - F1 Content, slide 175
-
+  - Enterprise-wide Business Risk Management Policy (CONTEXTUAL) - Superdomain
+  - Enterprise Risk Strategy Policy (CONCEPTUAL) - Delegated responsiblity from owner of enterprise/organisation (CEO)
+  	- Example: CIO = Information Risk Policy, CFO = Financial Risk Policy, COO = Operations Risk Policy...etc
+  - Domain-specific Interpretation (LOGICAL)
+  	- Sub-Domain(s): LOGICAL Policy
+  - __Logical__ Domain Layer = __Security Policies__
+  - __Physical__ Domain Layer = __Security Procedures__
+  - __Component__ Domain Layer = __Security Standards__
 ## Section 6 - Architectural Strategies

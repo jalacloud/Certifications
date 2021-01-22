@@ -133,9 +133,20 @@ SABSA Certification Study // Exam Preparation
 
 
 - #### Integrated Compliance Framework
+  - Contextual layer assesses and communicates the business requirement in the context of the overall business
+  - Conceptual layer sets out the strategy for treating risk and meeting the control and enablement objectives
+  - SABSA lower layers (logical, physical, component) engineer the deployment of controls (both technical and operational) in the best place, at the best time, with the best use of investment
+  - The aim is to provide the framework for compliance with multiple standards simulateously
+  - Allows for many standards, control frameworks, and libraries to be used within the over-arching SABSA methodology
+  - Applicable frameworks and control libraries able to be leveraged within the SABSA Matrix
 - #### Control Strategies
   - __The Control System Concept__
   	- The __Control sub-system__ - exerts control
 	- The __monitoring and measurement sub-system__ - affected by actions of contol sub-system
 	- The __Decision sub-system__ - makes decisions based upon the measurement provided by the measurement sub-system
+  - Strength-in-Depth Controls Model
+  	- SABSA has no controls library (standard or set of controls or control objectives) of its own
+	- Controls are architected within the framework
+	- Can utilise other control standards and frameworks in desired
 - #### SABSA Multi-tiered Control Strategy Model
+  - 

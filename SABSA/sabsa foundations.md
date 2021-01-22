@@ -120,6 +120,7 @@ SABSA Certification Study // Exam Preparation
   - __Logical__ Domain Layer = __Security Policies__
   - __Physical__ Domain Layer = __Security Procedures__
   - __Component__ Domain Layer = __Security Standards__
+
 ## Section 6 - Architectural Strategies
 - #### Systems Engineering
   - Objectives of System Engineering in SABSA are:
@@ -130,7 +131,6 @@ SABSA Certification Study // Exam Preparation
 	* Communication & documented preservation of ideas
   - Total System Objectives: System objectives expressed as "Business Requirements" that the system should satisfy
   	- The ability to __measure performance__ is of prime importance in order to properly satisfy the buiness requirements
-
 
 - #### Integrated Compliance Framework
   - Contextual layer assesses and communicates the business requirement in the context of the overall business
@@ -149,4 +149,17 @@ SABSA Certification Study // Exam Preparation
 	- Controls are architected within the framework
 	- Can utilise other control standards and frameworks in desired
 - #### SABSA Multi-tiered Control Strategy Model
-  - 
+  - Proportional response to risk management and assessment through mutliple tiers; __DETER, PREVENT, CONTAIN, DETECT, RECOVER, ASSURE__
+  - Prioritised, Proportional & Balanced Investment
+  - SABSA multi-tiered control strategy provides assurance of security capabilities (in design or in review/audit):
+  	- Risk-proportional capability to DETER
+	- Risk-proportional capability to PREVENT
+	- Risk-proportional capability to CONTAIN
+	- Risk-proportional capability to DETECT (and also TRACK)
+	- Risk-proportional capability to RECOVER
+	- Risk-proportional capability to ASSURE
+  - The multi-tiered controls strategy is modeled against the risk assessment __to determine proportional and appropriate response__.
+  - Enables further removal of subjectivity in selection of Risk Treatments
+  - Right control, right place, at the right time
+  
+  ## Section 7 - Role & Responsibility Concepts

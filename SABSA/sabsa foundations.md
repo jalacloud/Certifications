@@ -121,3 +121,21 @@ SABSA Certification Study // Exam Preparation
   - __Physical__ Domain Layer = __Security Procedures__
   - __Component__ Domain Layer = __Security Standards__
 ## Section 6 - Architectural Strategies
+- #### Systems Engineering
+  - Objectives of System Engineering in SABSA are:
+  	* Managing complexity (through layering techniques and modularisation)
+	* Top-down decomposition
+	* Structured thinking
+	* Peer review
+	* Communication & documented preservation of ideas
+  - Total System Objectives: System objectives expressed as "Business Requirements" that the system should satisfy
+  	- The ability to __measure performance__ is of prime importance in order to properly satisfy the buiness requirements
+
+
+- #### Integrated Compliance Framework
+- #### Control Strategies
+  - __The Control System Concept__
+  	- The __Control sub-system__ - exerts control
+	- The __monitoring and measurement sub-system__ - affected by actions of contol sub-system
+	- The __Decision sub-system__ - makes decisions based upon the measurement provided by the measurement sub-system
+- #### SABSA Multi-tiered Control Strategy Model

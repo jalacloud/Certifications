@@ -163,3 +163,56 @@ SABSA Certification Study // Exam Preparation
   - Right control, right place, at the right time
   
   ## Section 7 - Role & Responsibility Concepts
+
+- #### The SABSA Governance Model
+  - __Phases & Activities__
+  	- __STRATEGY and PLANNING:
+	  - Develops Strategy and Plans
+	  - Sets Goals, Objectives, & Expectations
+	  - Sets Performance Targets
+	  - Sets Risk Appetite
+	  - Sets Policy to meet objectives and targets
+	- __DESIGN__:
+	  - Design Processes
+	  - Design Systems
+	  - Design Staffing Model
+	  - Design Controls and Enablers
+	- __IMPLEMENT__:
+	  - Establish Processes
+	  - Implement Systems
+	  - Appoint and train people
+	  - Establish controls and enablers
+	- __MANAGE and MEASURE__:
+	  - Manage processes and operations
+	  - Manage systems
+	  - Manage people
+	  - Performance and Risk Monitoring against KPI's and KRI's
+  - __Roles and Responsibilities__:
+  	- OWNER: The owner is a Domain Policy Authority who sets goals, risk appetite, and performance targets for ASSETS (attributes) in a specific domain
+		- __Role__: Accountable for performance of the assets (attributes) within a specific domain
+		- __Governance Model__: Strategy and Planning phase
+		- __Policy Role__: Sets policy for the domain
+		- __Communications and Risk Management Role__:
+			- Consults: Super domain authority on risk appetite
+			- Consults: Lateral or externally impacted domain authorities
+			- Informs: Risk performance to super domain authority (or externally if enterprise domain authority)
+			- Informs: Policy & performance targets to subdomains & service providers
+	- TRUSTEE: The Delegated Authority (called a steward or trustee) is appointed by a domain owner as a subject matter expert to be responsible for the assets (attributes) in a specific domain. Policy Authority to delegated to the steward or trustee.
+		- __Role__: Responsible for the performance of the assets (attributes) in a specific domain
+		- __Governance Model__: Strategy and Planning phase (acts as domain authority)
+		- __Policy Role__: Sets policy for the domain on behalf of the domain authority
+		- __Communications and Risk Management Role__:
+			- Consults: Super domain authority and domain owner on risk appetite
+			- Consults: Lateral or externally impacted domain authorities
+			- Informs: Risk performance to super domain authority (or externally if enterprise domain authority) and domain owner
+			- Informs: Policy & performance targets to subdomains & service providers
+	- CUSTODIAN: The custodian is appointed by a domain owner as a subject matter exper or service provider to be RESPONSIBLE for the assets (attributes) in a specific domain. Unlike Trustees, policy authority is NOT delegated to the custodian. 
+		- __Role__: Responsible for the performance of the assets (attributes) in a specific domain
+		- __Governance Model__: Design, Implement, Manage & Measure phases
+		- __Policy Role__: Complies with policy and SLA for the domain assets on behalf of domain authority
+		- __Communications and Risk Management Role__:
+			- Informed by: Domain authority on risk appetite, policy and performance target
+			- Informs: Risk performance to domain authority (reports upwards)
+
+
+

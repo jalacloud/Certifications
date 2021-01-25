@@ -241,7 +241,28 @@ SABSA Certification Study // Exam Preparation
 	- Risk performance and policy compliance is communicated and aggregated BOTTOM-UP to the super domain authority by the sub-domain authority in a SABSA domain model.
 
 ## Section 8 - Domain Concepts
-
-
-
+ - #### SABSA Domain Model Concept & Framework
+   - __Benefits and Applications of Domain Models__:
+     - Reduces complexity & delivers clarity
+     - Controls resource segregation & enables information-sharing
+     - Strategic concept that associates people with technology with policy
+   - __Domain Registration Authority__:
+     - Setting policy for domain
+     - Establishing authentic indentity of applicant
+     - Establishing right to be registered
+     - Set operating practices and procedures
+     - Revoke registrations
+   - __Domain Certification Authority__:
+     - Setting credentials issuing (certification)
+     - Checking registration and authorisations
+     - Publishing credentials and CRLs
+     - Providing a chain of trust through hierachies
+ - #### Domain Definitions 
+   - __Security Domain Definition__:
+     - A security domain is a set of elements subject to a common security policy defined and owned by a single policy authority
+   - __Super Domain Definition__:
+     - A super domain is a set of elements subject to a common security policy defined and owned by a single security policy authority that contains one or more compliant subdomains, each with their own specific interpretation of the super domain policy
+   - __Subdomain Definition__:
+   
+  
 # F2 Content

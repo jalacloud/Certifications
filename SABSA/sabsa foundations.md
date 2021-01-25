@@ -228,14 +228,14 @@ SABSA Certification Study // Exam Preparation
 			- Informed by: Super domain authority on risk appetite, policy, and performance target
 			- Informs: Super domain authority on policy compliance
   	- __Main takeaways__:
-			- Auditor is external to the enterprise and provides INDEPENDENT audit and reporting services to the super domain authority.
-			- Auditor role exists at the Design, Implement, Manage & Measure phases.
-			- Compliance role is __internal__ and reports on policy compliance to the specific domain owner to which it is assigned.
-			- Trustee role is a delegation of the domain owner role. Trustee is responsible for assets (attributes), and reports to super domain authority AND domain owner. Trustee exists at Strategy & Planning phase of the SABSA Governance model.
-			- Custodian is appointed to be RESPONSIBLE for assets (attributes. Policy Authority is NOT delegated (unlike with trustees).
-			- Custodian role exists at the Design, Implement, Manage & Measure phases.
-			- Owner is accountable for performance of assets (attributes). Is the domain policy authority who sets goals, and risk appetite.
-			- Owner exists at the Strategy and Planning phase.
+		- Auditor is external to the enterprise and provides INDEPENDENT audit and reporting services to the super domain authority.
+		- Auditor role exists at the Design, Implement, Manage & Measure phases.
+		- Compliance role is __internal__ and reports on policy compliance to the specific domain owner to which it is assigned.
+		- Trustee role is a delegation of the domain owner role. Trustee is responsible for assets (attributes), and reports to super domain authority AND domain owner. 		 - Trustee exists at Strategy & Planning phase of the SABSA Governance model.
+		- Custodian is appointed to be RESPONSIBLE for assets (attributes. Policy Authority is NOT delegated (unlike with trustees).
+		- Custodian role exists at the Design, Implement, Manage & Measure phases.
+		- Owner is accountable for performance of assets (attributes). Is the domain policy authority who sets goals, and risk appetite.
+		- Owner exists at the Strategy and Planning phase.
 - #### Risk Aggregation
 	- Risk appetite and policy is communicated and distributed TOP-DOWN by the super domain authority in a SABSA domain model.
 	- Risk performance and policy compliance is communicated and aggregated BOTTOM-UP to the super domain authority by the sub-domain authority in a SABSA domain model.

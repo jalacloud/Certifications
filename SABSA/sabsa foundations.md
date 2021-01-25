@@ -263,6 +263,13 @@ SABSA Certification Study // Exam Preparation
    - __Super Domain Definition__:
      - A super domain is a set of elements subject to a common security policy defined and owned by a single security policy authority that contains one or more compliant subdomains, each with their own specific interpretation of the super domain policy
    - __Subdomain Definition__:
+     - A subdomain is a set of elements subject to a security policy defined and owned by a single policy authority, that is derived from, and complies with, the policy of a higher authority
+   - __Peer Domain Definition__:
+     - Peer domains are subdomains sharing a common super domain policy with which they must comply
+     - Super domain = common policy for ALL peer subdomains
+     - Each peer domain has a specific compliant policy
+   
+   
    
   
 # F2 Content

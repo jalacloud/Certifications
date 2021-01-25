@@ -206,13 +206,42 @@ SABSA Certification Study // Exam Preparation
 			- Consults: Lateral or externally impacted domain authorities
 			- Informs: Risk performance to super domain authority (or externally if enterprise domain authority) and domain owner
 			- Informs: Policy & performance targets to subdomains & service providers
-	- CUSTODIAN: The custodian is appointed by a domain owner as a subject matter exper or service provider to be RESPONSIBLE for the assets (attributes) in a specific domain. Unlike Trustees, policy authority is NOT delegated to the custodian. 
+	- CUSTODIAN: The custodian is appointed by a domain owner as a subject matter expert or service provider to be RESPONSIBLE for the assets (attributes) in a specific domain. Unlike Trustees, policy authority is NOT delegated to the custodian. 
 		- __Role__: Responsible for the performance of the assets (attributes) in a specific domain
 		- __Governance Model__: Design, Implement, Manage & Measure phases
 		- __Policy Role__: Complies with policy and SLA for the domain assets on behalf of domain authority
 		- __Communications and Risk Management Role__:
 			- Informed by: Domain authority on risk appetite, policy and performance target
 			- Informs: Risk performance to domain authority (reports upwards)
+	- COMPLIANCE: The compliance role is appointed by domain owner as subject matter expert to provide a compliance checking service and to report on the degree to which the risk appetite and policy of the owner is being met by the responsible and custodial parties
+		- __Role__: Responsible for checking the performance of assets (attributes) in a specfic domain on behalf of the owner (domain owner)
+		- __Governance Model__: Design, Implement, Manage & Measure phases
+		- __Policy Role__: Reports on policy compliance
+		- __Risk Management Communications Role__:
+			- Informed by: Domain authority on risk appetite, policy, and performance target
+			- Informs: Domain authority on policy compliance
+	- AUDITOR: The auditor role is appointed by a super domain authority as subject matter expert to provide an independent audit service and reporting on the degree to which the risk appetite and policy of the super domain authority is being met by sub-domain authorities
+		- __Role__: Responsible for auditing the performance of assets (attributes) in a specfic sub-domain on behalf of the owner of a super domain 
+		- __Governance Model__: Design, Implement, Manage & Measure phases
+		- __Policy Role__: Reports on policy compliance and procedure weaknesses
+		- __Risk Management Communications Role__:
+			- Informed by: Super domain authority on risk appetite, policy, and performance target
+			- Informs: Super domain authority on policy compliance
+  	- __Main takeaways__:
+			- Auditor is external to the enterprise and provides INDEPENDENT audit and reporting services to the super domain authority.
+			- Auditor role exists at the Design, Implement, Manage & Measure phases.
+			- Compliance role is __internal__ and reports on policy compliance to the specific domain owner to which it is assigned.
+			- Trustee role is a delegation of the domain owner role. Trustee is responsible for assets (attributes), and reports to super domain authority AND domain owner. Trustee exists at Strategy & Planning phase of the SABSA Governance model.
+			- Custodian is appointed to be RESPONSIBLE for assets (attributes. Policy Authority is NOT delegated (unlike with trustees).
+			- Custodian role exists at the Design, Implement, Manage & Measure phases.
+			- Owner is accountable for performance of assets (attributes). Is the domain policy authority who sets goals, and risk appetite.
+			- Owner exists at the Strategy and Planning phase.
+- #### Risk Aggregation
+	- Risk appetite and policy is communicated and distributed TOP-DOWN by the super domain authority in a SABSA domain model.
+	- Risk performance and policy compliance is communicated and aggregated BOTTOM-UP to the super domain authority by the sub-domain authority in a SABSA domain model.
+
+## Section 8 - Domain Concepts
 
 
 
+# F2 Content

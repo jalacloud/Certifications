@@ -319,13 +319,31 @@ SABSA Certification Study // Exam Preparation
      - Ops management; events, incidents
      - Assurance; audit & review, live pen tests
      - Monitoring; KPIs & KRIs, risk scorecard, risk dashboard
-     - Improvements; capability maturity model (CMM) - 
+     - Improvements; capability maturity model (CMM) - Unreliable, Informal, Defined, Monitored, Optimised - SMP
   - Entrprise Lifecycle Risk Perspectives:
     - All risk management activities (strategic - long-term, tactical - medium-term, and operations - short-term) should support the over-arching business strategy for achieving long-term goals and objectives
 
 - #### Process Improvement Framework
-  - Slide 307
-  
+  - SABSA Maturity Model - SMP
+    - Qualitative measurement technique for maturity of processes
+    - Consistent, objective 5-point maturity scale
+      1. Unreliable 
+      2. Informal
+      3. Defined
+      4. Monitored
+      5. Optimised
+    - Provides gap analysis to drive a SABSA improvement programme
+    - Each of the six SMP process areas (below) map onto the six cells of each row/layer of the SABSA Matrix corresponding to the particular SMP domain
+    - Coordinates SABSA process information from all parts of the business
+      - Demonstrates due diligence to senior management, auditors, and regulators
+    - SABSA Maturity Profile Domains / SMP Process Areas:
+      - The six SMP domains are:
+        - Contextual architecture
+	- Conceptual architecture
+	- Logical architecture
+	- Physical architecture
+	- Component architecture
+	- Service Management architecture
 - #### Performance Management Framework
   - Slide 313
   - Architecture Measurement Categories

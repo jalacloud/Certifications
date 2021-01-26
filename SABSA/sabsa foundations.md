@@ -302,24 +302,24 @@ SABSA Certification Study // Exam Preparation
     - Establishes an appropriate infrastructure and culture and applies logical and systematic methods of establishing context, identifying, analysing, evaluating, treating, monitoring and communicating risks in a way that enables organisations to minimise losses and maximise gains
     - Provides governance by managing, communicating, and assuring risk treatment policies, targets, and practices through every phase of the lifecycle
     - Risk management activities performed through each phase of the SABSA lifecycle:
-      - __Strategy & Planning__ - Business-driven Risk Management / Threats and Opportunities Inventory / Sets Risk appetite, and risk thresholds
-      	- Establish context: stakeholders, business drivers, attributes
-	- Establish strategy: control objectives, enablement objectives, conceptual design
-      - Design - Risk activities designed based on the risk appetite and activities layed out in strategy and planning phase
-        - Gap analysis of controls/enablers
-	- Logical design; policies, services
-	- Physical design; procedures, mechanisms
-	- Components; tools and standards
-	- Operations
-      - Implement - Implementation of risk mitigation policies, processes, & systems
-        	- Plan; proof of concept, roll out
-		- Manage; implementation, training
-		- Test; audit & review, system tests, process tests, penetration tests, UAT, OAT
-      - Manage & Measure - Risk management and measurement at lower layers and reported upwards to meet traceability requirements
-        	- Ops management; events, incidents
-		- Assurance; audit & review, live pen tests
-		- Monitoring; KPIs & KRIs, risk scorecard, risk dashboard
-		- Improvements; capability maturity model (CMM) - 
+   - __Strategy & Planning__ - Business-driven Risk Management / Threats and Opportunities Inventory / Sets Risk appetite, and risk thresholds
+     - Establish context: stakeholders, business drivers, attributes
+     - Establish strategy: control objectives, enablement objectives, conceptual design
+   - __Design__ - Risk activities designed based on the risk appetite and activities layed out in strategy and planning phase
+     - Gap analysis of controls/enablers
+     - Logical design; policies, services
+     - Physical design; procedures, mechanisms
+     - Components; tools and standards
+     - Operations
+   - __Implement__ - Implementation of risk mitigation policies, processes, & systems
+     - Plan; proof of concept, roll out
+     - Manage; implementation, training
+     - Test; audit & review, system tests, process tests, penetration tests, UAT, OAT
+   - __Manage & Measure__ - Risk management and measurement at lower layers and reported upwards to meet traceability requirements
+     - Ops management; events, incidents
+     - Assurance; audit & review, live pen tests
+     - Monitoring; KPIs & KRIs, risk scorecard, risk dashboard
+     - Improvements; capability maturity model (CMM) - 
   - Entrprise Lifecycle Risk Perspectives:
     - All risk management activities (strategic - long-term, tactical - medium-term, and operations - short-term) should support the over-arching business strategy for achieving long-term goals and objectives
 

@@ -162,7 +162,7 @@ SABSA Certification Study // Exam Preparation
   - Enables further removal of subjectivity in selection of Risk Treatments
   - Right control, right place, at the right time
   
-  ## Section 7 - Role & Responsibility Concepts
+## Section 7 - Role & Responsibility Concepts
 
 - #### The SABSA Governance Model
   - __Phases & Activities__
@@ -241,35 +241,74 @@ SABSA Certification Study // Exam Preparation
 	- Risk performance and policy compliance is communicated and aggregated BOTTOM-UP to the super domain authority by the sub-domain authority in a SABSA domain model.
 
 ## Section 8 - Domain Concepts
- - #### SABSA Domain Model Concept & Framework
-   - __Benefits and Applications of Domain Models__:
-     - Reduces complexity & delivers clarity
-     - Controls resource segregation & enables information-sharing
-     - Strategic concept that associates people with technology with policy
-   - __Domain Registration Authority__:
-     - Setting policy for domain
-     - Establishing authentic indentity of applicant
-     - Establishing right to be registered
-     - Set operating practices and procedures
-     - Revoke registrations
-   - __Domain Certification Authority__:
-     - Setting credentials issuing (certification)
-     - Checking registration and authorisations
-     - Publishing credentials and CRLs
-     - Providing a chain of trust through hierachies
- - #### Domain Definitions 
-   - __Security Domain Definition__:
-     - A security domain is a set of elements subject to a common security policy defined and owned by a single policy authority
-   - __Super Domain Definition__:
-     - A super domain is a set of elements subject to a common security policy defined and owned by a single security policy authority that contains one or more compliant subdomains, each with their own specific interpretation of the super domain policy
-   - __Subdomain Definition__:
-     - A subdomain is a set of elements subject to a security policy defined and owned by a single policy authority, that is derived from, and complies with, the policy of a higher authority
-   - __Peer Domain Definition__:
-     - Peer domains are subdomains sharing a common super domain policy with which they must comply
-     - Super domain = common policy for ALL peer subdomains
-     - Each peer domain has a specific compliant policy
+- #### SABSA Domain Model Concept & Framework
+  - __Benefits and Applications of Domain Models__:
+    - Reduces complexity & delivers clarity
+    - Controls resource segregation & enables information-sharing
+    - Strategic concept that associates people with technology with policy
+  - __Domain Registration Authority__:
+    - Setting policy for domain
+    - Verifying credentials of applicant
+    - Establishing authentic indentity of applicant
+    - Establishing right to be registered
+    - Set operating practices and procedures
+    - Revoke registrations
+  - __Domain Certification Authority__:
+    - Setting credentials issuing (certification)
+    - Checking registration and authorisations
+    - Publishing credentials and CRLs
+    - Providing a chain of trust through hierachies
+- #### Domain Definitions 
+  - __Security Domain Definition__:
+    - A security domain is a set of elements subject to a common security policy defined and owned by a single policy authority
+  - __Super Domain Definition__:
+    - A super domain is a set of elements subject to a common security policy defined and owned by a single security policy authority that contains one or more compliant subdomains, each with their own specific interpretation of the super domain policy
+  - __Subdomain Definition__:
+    - A subdomain is a set of elements subject to a security policy defined and owned by a single policy authority, that is derived from, and complies with, the policy of a higher authority
+  - __Peer Domain Definition__:
+    - Peer domains are subdomains sharing a common super domain policy with which they must comply
+    - Super domain = common policy for ALL peer subdomains
+    - Each peer domain has a specific compliant policy
    
-   
+## Section 9 - Time & Performance Management Concepts
+- #### The SABSA Lifecycle
+  - Properties of a Strategic Lifecycle
+    - Strategy:
+      - Setting out __long-term goals__ and plans for reaching those goals
+      - Might have a beginning but never ends
+      - Strategic organisations are in a state of constant change
+    - Tactics:
+      - Setting __medium-term goals__ and plans to achieve those goals
+      - Have both a defined beginning and an end (they 'go-live')
+      - Projects are tactical initiatives towards strategic goals
+      - Alternatively, they address an immediate problem
+    - Operations:
+      - Deals with the __day-to-day__ job of keeping the business running
+      - Based upon repetitive procedures that make up business processes
+      - Developed through tactical projects, which in turn were driven by strategies
+  - __SABSA Lifecycle Principals__:
+    - Strongly business-driven
+      - Regards it as mandatory that security demonstrably supports the business mission
+    - Splits "Plan" into two (strategy & planning, and Design) to gain more granular traceability from business need to technical implementation and security management
+    - "If you cannot measure you cannot manage"
+    - SABSA view is mutually compatible with Deming's "Plan, Do, Check, Act"
+  - __The SABSA Lifecycle Overlay__:
+    - Strategy = Contextual & Conceptual Layers
+    - Tactical = Logical, Physical, & Component Layers
+    - Operations = Security Service Management Matrix
+
+- #### Through-life Risk Managment Framework
+  - Slide 299
+
+- #### Process Improvement Framework
+  - Slide 307
+  
+- #### Performance Management Framework
+  - Slide 313
+  - Architecture Measurement Categories
+  -
+- #### Through-life Architecture Vitality Framework
+  - Slide 323
    
   
 # F2 Content

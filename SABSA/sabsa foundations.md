@@ -306,20 +306,20 @@ SABSA Certification Study // Exam Preparation
       	- Establish context: stakeholders, business drivers, attributes
 	- Establish strategy: control objectives, enablement objectives, conceptual design
       - Design - Risk activities designed based on the risk appetite and activities layed out in strategy and planning phase
-      	- Gap analysis of controls/enablers
+        - Gap analysis of controls/enablers
 	- Logical design; policies, services
 	- Physical design; procedures, mechanisms
 	- Components; tools and standards
 	- Operations
       - Implement - Implementation of risk mitigation policies, processes, & systems
-      	- Plan; proof of concept, roll out
-	- Manage; implementation, training
-	- Test; audit & review, system tests, process tests, penetration tests, UAT, OAT
+        	- Plan; proof of concept, roll out
+		- Manage; implementation, training
+		- Test; audit & review, system tests, process tests, penetration tests, UAT, OAT
       - Manage & Measure - Risk management and measurement at lower layers and reported upwards to meet traceability requirements
-      	- Ops management; events, incidents
-	- Assurance; audit & review, live pen tests
-	- Monitoring; KPIs & KRIs, risk scorecard, risk dashboard
-	- Improvements; capability maturity model (CMM) - 
+        	- Ops management; events, incidents
+		- Assurance; audit & review, live pen tests
+		- Monitoring; KPIs & KRIs, risk scorecard, risk dashboard
+		- Improvements; capability maturity model (CMM) - 
   - Entrprise Lifecycle Risk Perspectives:
     - All risk management activities (strategic - long-term, tactical - medium-term, and operations - short-term) should support the over-arching business strategy for achieving long-term goals and objectives
 

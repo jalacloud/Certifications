@@ -347,7 +347,11 @@ SABSA Certification Study // Exam Preparation
 - #### Performance Management Framework
   - Slide 313
   - Architecture Measurement Categories
-  -
+  	- __Completeness__
+  	- __Assurance__
+  	- __Compliance__
+  	- __Performance__
+  	- __Justification__
 - #### Through-life Architecture Vitality Framework
   - Slide 323
    

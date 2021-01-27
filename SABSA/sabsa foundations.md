@@ -351,7 +351,27 @@ SABSA Certification Study // Exam Preparation
   	- __Assurance__
   	- __Compliance__
   	- __Performance__
-  	- __Justification__
+  	- __Justification & significance__
+  - Measurement Approaches
+  	- High level statements of the approach to obtaining a measurement
+	- Appropriate to the business need
+	- In the language of the intended audience
+	- Culturally specific
+  - Measurement Guidelines
+  	- Measurement should be a repeatable process (for comparison & prediction)
+	- Measurement should have a clear communications role
+	  - Tracking performance
+	  - Assigning resources
+	- Measurement should yield quantifible metrics (percentage, average, numbers, values, etc)
+  - Metrics Guidelines
+  	- Data used to calculate metrics should be readily obtainable
+	- Metrics may (should) be calculated independently of parties with vested interest
+	- The type of metric used may change in line with the maturity of the security process
+	  - E.g. When you are highly compliant, consider changing from conformance measure to significance measure
+	  - The more mature your organisation is in its security programme, the more defined and optimised the metrics should be
+	- Performance metric / trend should be tested prior to going 'live'
+	- Expectations management is key
+	
 - #### Through-life Architecture Vitality Framework
   - Slide 323
    

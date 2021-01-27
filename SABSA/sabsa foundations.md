@@ -9,9 +9,37 @@ SABSA Certification Study // Exam Preparation
 ## Section 1 - SABSA Principals & Objectives
 - #### Enterprise Security Architecture Framework
   - A consistent set of principals, policies, capabilities and standards that sets the direction and vision for the development and operation of the organisation's business information systems so as to ensure alignment with and support for the business needs.
+  - __Concept of Enterprise__:
+  	- The treatment of an organisation as a single entity
+	- Aims to optimise all parts of the organisation in a coherent way
+  - __Concept of Security__:
+  	- To provide confidence & assurance
+	- To protect business assets
+	- To support business objectives
+  - The REAL role of Architected Security:
+  	- Enable business
+	- Enable technology
+	- Enable change - securely
+	- Protecting relationship & leveraging trust
 - #### SABSA Guiding Principals
+  - Architecture must not presuppose any particular:
+  	- Cultures or operating systems
+	- Management style
+	- Set of management processes
+	- Management standards
+	- Technology standards
+	- Technology platforms
+  - Because ALL of these things change over time
+  - Architecture must meet your unique set of business requirements
+  - Architecture must provide sufficient flexibility to incorporate choice and change of policy, standards, practices, or legislation
+ 
 - #### Holistic Approach
+  - Provide ALL the links in the chain
+  - Ensure that security services are properly managed
+  - To ensure that security meets the needs of the business
+
 - #### Features, Benefits, and Advantages
+
 
 ## Section 2 - SABSA Framework Overview
 - #### The SABSA Matrix

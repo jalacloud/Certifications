@@ -346,7 +346,7 @@ SABSA Certification Study // Exam Preparation
 	- Service Management architecture
 - #### Performance Management Framework
   - Slide 313
-  - Architecture Measurement Categories
+  - __Architecture Measurement Categories__
   	- __Completeness__
   	- __Assurance__
   	- __Compliance__
@@ -363,7 +363,7 @@ SABSA Certification Study // Exam Preparation
 	  - Tracking performance
 	  - Assigning resources
 	- Measurement should yield quantifible metrics (percentage, average, numbers, values, etc)
-  - Metrics Guidelines
+  - __Metrics Guidelines__
   	- Data used to calculate metrics should be readily obtainable
 	- Metrics may (should) be calculated independently of parties with vested interest
 	- The type of metric used may change in line with the maturity of the security process
@@ -371,9 +371,39 @@ SABSA Certification Study // Exam Preparation
 	  - The more mature your organisation is in its security programme, the more defined and optimised the metrics should be
 	- Performance metric / trend should be tested prior to going 'live'
 	- Expectations management is key
-	
+  - __Types of Metrics__
+  	- __Soft Metric__
+	  - Qualitative
+	  - Subjective
+	  - Open to interpretation
+	- __Hard Metric__
+	  - Quantitative
+	  - Objective
+	  - Fixed, not open to interpretation
+	- __Descriptive__
+	  - Describes current-state of the object/attribute being measured
+	- __Comparitive__
+	  - Compares current-state of object/attribute with a similar object/attribute relating to a different place and/or time
+	- __Predictive__
+	  - Trend analysis in order to project and predict a future state
+  - Conceptual Measures & Metrics Framework
+  	- Business Requirement / Contextual level
+	- Business Driver for Security / Derived from business requirements - conceptual abstraction
+	- Attribute / Business Attributes Profile
+	- Measurement Category (Completeness, Assurance, Compliance, Performance, Justification & Significance) - C.A.C.P.JS
+	- Measurement Approach
+	- Metric
 - #### Through-life Architecture Vitality Framework
   - Slide 323
-   
-  
+  - Through-life Vitality Framework
+  	- A consistent set of principals, policies, capabilities, and standards that sets the direction and vision for the development and operation of the organisation's business information systems so as to ensure alignment with and support for the business needs
+	- SABSA Guiding Principals to be an enabler of change
+		- Provides the roadmap for joining together all of your requirements, whatever they might be, or become
+  - __Architecture Vitality is the Architecture's capaciy to live, breathe and adapt its principals, policies, capabilities and standards such that it is viable in supporting dynamic business needs__
+  - Each of the major SABSA Frameworks incorporates traceability from contextual requirements through solution design, implementation & management
+  - The Manage & Measure Phase incorporates Feedback Loops for each in order to detect requirements to change the solutions
+  - Vitality is achieved by adding to these feedback loops:
+  	- Detection mechanism for brand new requirements
+	- Architectural change management
+
 # F2 Content

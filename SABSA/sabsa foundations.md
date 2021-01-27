@@ -407,3 +407,48 @@ SABSA Certification Study // Exam Preparation
 	- Architectural change management
 
 # F2 Content
+
+## Section 10 - Asset Architecture & Asset Management
+- #### The SABSA Matrix - Deliverables of the SABSA Design Phase Layers
+  - Design phase layers = Logical layer, Physical layer, Component layer
+  - __Logical Architecture Layer__
+  	- Concerned with *INFORMATION* security and system functionality
+  	- __Information Assets__ (What / Assets)
+	- __Risk Management Polcies__ (Why / Motivation)
+	- __Process Maps & Services__ (How / Process)
+	- __Entity & Trust Framework__ (Who / People)
+	- __Domain Maps__ (Where / Location)
+	- __Calendar & Timetable__ (When / Time)
+ 	- Elements exist in logical domains not tied to specific physical locations
+  - __Physical Architecture Layer__
+  	- Concerned with *DATA* security and infrastructure security
+	- Elements exist in a specific physical domain and location
+	- __Data Assets__ (What / Assets)
+	- __Risk Management Practices__ (Why / Motivation)
+	- __Process Mechanisms__ (How / Process)
+	- __Human Interface__ (Who / People)
+	- __ICT Infrastructure__ (Where / Location)
+	- __Processing Schedule__ (When / Time)
+  - __Component Architecture Layer__
+  	- Specialised tools, brands, specific granular technical specifications & standards, protocols
+	- __ICT Components__ (What / Assets)
+	- __Risk Management Tools & Standards__ (Why / Motivation)
+	- __Process Tools & Standards__ (How / Process)
+	- __Personnel Management Tools & Standards__ (Who / People)
+	- __Locator Tools & Standards__ (Where / Location)
+	- __Step timing & sequencing__ (When / Time)
+- #### Service Management
+  - The objective of Release & Deployment Management is to build, test and deliver the capabilities and resources to provide the required services
+  - A project (or any change) exists to:
+  	- Improve current capabilities or performance
+	- Introduce new capabilties
+  - Knowledge is aggregated and contextualised through the SABSA Architecture layers
+  - Knowledge management ensures that reliable information is available during the service lifecycle
+  - The Service Management Layer maps to the SABSA Security Architecture layers:
+  	- Contextual Layer (Business Wisdom)
+	- Conceptual Layer (Business Knowledge)
+	- Logical Layer (Business Information)
+	- Physical & Component Layer (Business Data)
+	- Service Management Layer (Knowledge Management) -> Maps to all of the above ^^
+
+- #### SABSA Start-up Approaches

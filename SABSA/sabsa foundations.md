@@ -452,3 +452,28 @@ SABSA Certification Study // Exam Preparation
 	- Service Management Layer (Knowledge Management) -> Maps to all of the above ^^
 
 - #### SABSA Start-up Approaches
+  - Executive interview approach
+  	- Requires access to stakeholders, c-suite, senior executives
+  - Analysis followed by validation
+  	- No access to stakeholders
+	- Team research & assumptions
+	- Review, concensus, & sign-off of strategy
+  - SABSA Fast-Track
+  	- Full scope experience & proof-of-concept
+	- Limited financial liability & commitment
+	- Requires access to full team and stakeholders
+  - Blended Approach
+  	- Complex or distributed organisations often require a combination of the other three approaches
+  - __Fast-Track Start-up Concept__
+  	- Based on intensive facilitated workshops
+	- Heavily customised to specific needs of organisation
+	- Key programmes and risk priorities
+        - Key players experience every aspect of the programme in a short time
+	- Workshops run in parallel syndicates to ensure full scope is covered
+	- Unlike other approaches, fast-track covers full scope of SABSA
+
+## Section 11 - Risk & Policy Management Architecture
+- #### Risk & Policy Management Architecture
+
+
+- #### SABSA Assurance Framework

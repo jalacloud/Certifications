@@ -474,6 +474,15 @@ SABSA Certification Study // Exam Preparation
 
 ## Section 11 - Risk & Policy Management Architecture
 - #### Risk & Policy Management Architecture
-
-
+  - Business risk and opportunities exist traceable through every layer of the architecture
+  - Reponsibility for managing enterprise risks & opportunities is delegated to __Domains__
+  - Each Domain Policy Authority:
+  	- Operates within the risk appetite parameters of the super domain
+	- Is compliant with the super domain policy
+	- Has vested interest in risk performance within their own risk domain
+	- Deploys specific controls and enablers to manage risk according to the architecture layer at which their domain exists
+		- Right control, right place, at the right time
+		- E.g. Network risk is managed by network controls and enablers deployed in the network domain according to network security policy
+	
+	
 - #### SABSA Assurance Framework

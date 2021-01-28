@@ -700,7 +700,7 @@ SABSA Certification Study // Exam Preparation
 		- On-Line Authentication
 			- Authority Claim AI
 			- Verification AI 
-			- Both happen on-line during exchange of authentication information
+			- Both happen on-line during exchange of authentication information through trusted third-party
 		- Off-line Authentication
 			- Verification of AI is distributed off-line
 	- Security Processing Cycle

@@ -527,11 +527,61 @@ SABSA Certification Study // Exam Preparation
   	- LOGICAL: Management of Security Services (Logical)
 	- PHYSICAL: Management of Infrastructure & Environment
 	- COMPONENT: Management of Tools, Products, & Standards
-  - Deter
-  - Prevent
-  - Contain
-  - Detect
-  	- Evidence & Track
-  - Recover & Restore
-  - Assure
+  - SABSA Multi-Tiered Control Strategy
+  	- Control Services - Logical
+	- Control Mechanisms - Physical
+	- Control Components - Component
+	- __Deter__
+  	- __Prevent__
+  	- __Contain__
+  	- __Detect__
+  	  - Evidence & Track
+  	- __Recover & Restore__
+  	- __Assure__
+
+  - Pure risk = 100% vulnerability, 100% weakness
+  - Risk High = Risk is not proportional
+  - Actuarial Data removes some subjectivity in initial rating by creating defined impact parameters & thresholds for risk appetite
+  - Dynamic risk causes change in warning thresholds:
+  	- High alert risk appetite spectrum means smaller percentage of acceptable risk level/threshold	
+
 - #### SABSA Assurance Framework
+  - Maps to the SABSA matrix (Assets, Motivation, Process, People, Location, Timeliness)
+  - Maps to SABSA Lifecycle
+  - __SABSA Assurance Defined__
+  	- __Assurance__
+	  - Providing confirmation and confidence that the enterprise risks are being adequately managed and that residual information risk is within the risk appetite or risk tolerence of the organisation
+	- __Assurance Management__
+	  - The process of managing assurance, including governing, planning and executing an enterprise assurance programme
+	  - The process of providing assurance that the enterprise security architecture is:
+	  	- BUSINESS-DRIVEN
+		- COMPLETE
+		- CONSISTENT
+		- ROBUST
+		- FIT-FOR-PURPOSE IN EVERY WAY
+	- __Assurance Management Activities__
+	  - The set of activities that comprise 'assurance management' 
+	    - Audits
+	    - Tests
+	    - Reviews
+	    - Checks & balances
+
+  - SABSA Assurance Levels (4 levels)
+  	- Level 1
+	- Level 2
+	- Level 3
+	- Level 4
+  	- Assurance levels are the ONLY part of the framework that can be customised/modified
+	- __Assurance levels correlate to the risk levels__
+		- Higher the risk level, higher the assurance level required
+		- Lower the risk level, lower the assurance level required
+
+
+	
+	
+	
+	
+	
+	
+
+

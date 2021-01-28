@@ -689,11 +689,27 @@ SABSA Certification Study // Exam Preparation
 	- Authentication server providing a 'security agent' to client PC's is the same concept of an extended domain
 
 
-
-
 ## Section 15 - Service Sequencing & Performance
+ - #### Timing & Sequencing
+ 	- Everything in security has a lifetime
+	- __Logical Relationships in Security__
+		- Direct Authentication Relationship
+			- Claimant: Claims authentication information (AI) --> Exchange AI <-- Verifier (Verification AI)
+		- Indirect In-Line Authentication
+			- Authentication through a trusted third-party
+		- On-Line Authentication
+			- Authority Claim AI
+			- Verification AI 
+			- Both happen on-line during exchange of authentication information
+		- Off-line Authentication
+			- Verification of AI is distributed off-line
+	- Security Processing Cycle
+		- The security processing cycle involves a number of security management activities such as:
+			- Introducing and registering new organisational entities
+			- Introducing and registering new users
+			- Setting up authorised privileges
+			- Registration renewal
+			- Certificate issue and renewal
+			- Provisioning and configuring equipment throughout the environment
 
-
-
-
-
+ - #### Performance

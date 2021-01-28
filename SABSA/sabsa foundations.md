@@ -511,6 +511,27 @@ SABSA Certification Study // Exam Preparation
 	- Deploys specific controls and enablers to manage risk according to the architecture layer at which their domain exists
 		- Right control, right place, at the right time
 		- E.g. Network risk is managed by network controls and enablers deployed in the network domain according to network security policy
-	
-	
+  - __Risk Level__
+  	- LOGICAL LAYER: Business Risks & Opportunities to Logical Domains
+	- PHYSICAL LAYER: Risk & Opportunities to Physical Environment & Infrastructure Domains
+	- COMPONENT LAYER: Risks & Opportunities to System Components & Configuration
+  - __Policy Level__
+  	- LOGICAL LAYER: Appetite & Strategy articulated in Logical Policy
+	- PHYSICAL LAYER: Managed by Physical Procudures derived from Policy
+	- COMPONENT LAYER: Managed by Standards for Tools & Products
+  - __Control Level__
+  	- LOGICAL LAYER: Security Services
+	- PHYSICAL LAYER: Security Mechanisms
+	- COMPONENT LAYER: Security Components
+  - __Service Management Activity Controls__
+  	- LOGICAL: Management of Security Services (Logical)
+	- PHYSICAL: Management of Infrastructure & Environment
+	- COMPONENT: Management of Tools, Products, & Standards
+  - Deter
+  - Prevent
+  - Contain
+  - Detect
+  	- Evidence & Track
+  - Recover & Restore
+  - Assure
 - #### SABSA Assurance Framework

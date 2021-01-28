@@ -613,5 +613,87 @@ SABSA Certification Study // Exam Preparation
 	- Value is created by services that meet the customer's enablement AND control objective
 
 ## Section 13 - Entity & Trust Framework
-- ####
-	
+- #### SABSA Trust Model
+  - The Trust Concept
+  	- Trust is a relational business attribute not a technical one
+	- Trust is an important concept relevant to business relationships
+	- Technical services are often used to support trusted interoperation between trusted entities
+		- Certification Authority
+		- Registration Authority: Establishes trust and authorises participation in a domain
+  - Trust Models
+  	- For two or more entities to interact and exchange information they must first trust each other
+	- Trust is established through __registration__ by a mutually trusted third-party within a given domain (logical or physical)
+	- All registered entities within a given domain trust one another within the domain policy
+	- The technical mechanism needed to support trusted interaction is 'mutual authentication'
+  - Relationships & Trust
+  	- One-way Trust (simple)
+	- Two-way Trust (complex)
+	- Transitive or pass-through Trust
+  - __Key points of trust and trust modelling__:
+  	- Trust modelling in SABSA is about a clear specification of the business requirements for Trust, Security, and Control
+  	- Logical trust model decomposition maps attributes to information flows
+		- Progressing down to attributes mapping to services
+  	- The direction of the trust arrows determines who is dependent upon security / control
+  	- Trust strength is determined by strength of registration process
+  - __Trust Roles & Participants__
+  	- Trust Broker / Trusted Third-Party
+		- Sells trust
+		- Acts as the trusted third-party who is trusted by two or more individual domains
+	- Claimant
+		- Claims identity
+		- Claims authority
+		- Has been certified by the trust broker as being TRUSTED
+	- Relying Party
+		- Relying party is the TRUSTING party and is dependent on the claimant to claim identity
+	- Registration Authority
+		- Establishes trust and authorises participation in a domain
+  - Business Entity Relationships
+  	- Various levels of trust and information flows
+	- Unilateral relationships
+		- One party broadcasts or publishes information, others may receive it at their choice
+	- Bilateral relationships
+		- Two parties make a specific contract
+	- Multilateral relationships
+		- Group membership controlled by agreed rules
+
+## Section 14 - Inter-Domain Security Associations
+- #### Domain Associations
+  - The SABSA method for achieving business engineering objectives is called "Securiy Associations Modelling"
+  - Engineering Objectives
+  	- The attributes profile created in the Conceptual Architecture represents the business requirements for security end-to-end of business processes
+  - __Security Associations__
+  	- Security associations exist at many levels
+  	- Standards define Security Associations as the set of shared information that describes the security relationship between two entities, such as;
+		- Cryptographic keys
+		- Sequence numbers
+		- Trusted time
+		- Etc..
+	- In SABSA, the security association is a LOGICAL representation of the business requirements for trust and security:
+		- Intra-domain (between entities in a single domain)
+		- Inter-domain (between entities in different domains)
+	- A fully engineered set of security associations combine to deliver the required attribute end-to-end of the business process, irrespective of which domain boundaries are crossed, or how many
+  - __End-to-End Security Objective__
+  	- Domains exist at both LOGICAL and PHYSICAL levels
+	- Logical domain associations - associations in and between
+		- Business units, & lines of business
+		- User communities & groups
+	- Physical domain associations - associations in and between
+		- Territories & jurisdictions
+		- Buildings and sites
+		- Infrastructure layer domains (networks, platforms, middleware...etc.)
+  - __Extended Domain Concept__
+  	- The extended domain concept is used when one domain policy authority must exert control over another in order to successfully manage their own risk
+	- Effectively the dominant policy authority extends their domain into another - the stronger domain implants its policy into the 'territory' or another as a special sub-domain
+	- Concept of ISP-owned CPE devices being used on customer premises.
+	- Internet Service Provider owns the CPE and thus EXTENDS its security domain to the customer premises so as to exert policy over the CPE device.
+	- Authentication server providing a 'security agent' to client PC's is the same concept of an extended domain
+
+
+
+
+## Section 15 - Service Sequencing & Performance
+
+
+
+
+

@@ -576,12 +576,42 @@ SABSA Certification Study // Exam Preparation
 		- Higher the risk level, higher the assurance level required
 		- Lower the risk level, lower the assurance level required
 
+## Section 12 - Transformation & Service Architecture
+- #### Process Analysis
+  - Vertical Consistency
+  	- A requirement for a business process is expressed as an attribute with a performance target
+	- A process is 'executed' by a series of progressively more granular steps down through each of the architecture layers
+	- Vertical consistency means that the conceptual attribute required at the top of the process model must be accurately represented at each layer (or the requirement is not met)
+	- Security services are the means of specifying and providing the required functionality at each layer
+	
+- #### Security Services
+  - Business-driven requirements organised into a consistent, logical / functional specification
+  - Derived exclusively from the contextual and conceptual layers above, especially:
+  	- Attribute profile (with performance targets)
+	- Control & enablement objectives (to defined risk appetite)
+	- Domain model (organisation & infrastructure policy architecture)
+	- Trust model (inter-domain service requirements)
+  - __Primary Security Services__
+  	- Primary security services are wholly embedded within a domain element
+	- Self-contained within the element to provide security functionality that secures the element
+  - __Secondary Security Services__
+  	- Secondary security services operate between elements in a domain
+	- They secure the communications between the elements
+  - __Implicit Security Services__
+  	- Implicit security services are implicit in a domain - they secure the domain from within
+	  - E.g. Both primary and secondary services are providing "application security" from within the applications domain.
+  - __Explicit Security Services__ 
+	- Explicit security services are explicitly requested from one domain to another
+	- Domain 1 and Domain 2 both have separate implicit security services that belong to each of their respective domains
+	- An element in Domain 1 explicitly requests the security services of a service within domain 2
 
-	
-	
-	
-	
-	
-	
+- #### Service Value & SLAs
+  - SABSA Concept of Security Service Management
+  	- Security service management is a set of specialised organisational capabilties for providing value to customers in the form of security services
+	- Involves matching business requirements for control and enablers to available service provider resources and capabilities
+	- Aims to make security capabilities and resources available to the customer in the highly usable form of security services that meet control and enablement objectives
+	- Value is created by services that meet the customer's enablement AND control objective
 
-
+## Section 13 - Entity & Trust Framework
+- ####
+	

@@ -1,3 +1,5 @@
+# SC-200 Exam Resources //
+
 Learning Modules:
 
 [Exam SC-200: Microsoft Security Operations Analyst - Certifications](https://learn.microsoft.com/en-us/certifications/exams/sc-200)

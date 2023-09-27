@@ -3,7 +3,16 @@
 
 ```mermaid
 pie
-  title SC-200 Progress Tracker
-  "SC-200" : 70
-  "My Progress" : 30
+  title SC-200 Knowledge Domains
+  "1. Microsoft Defender" : 33
+  "2. Microsoft Defender for Cloud" : 33 
+  "3. Microsoft Sentinel" : 33
 ```
+
+```mermaid
+pie
+  title My Progress
+  "SC-200" : 75
+  "Current Progress" : 25
+```
+

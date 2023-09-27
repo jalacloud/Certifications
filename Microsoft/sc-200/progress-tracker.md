@@ -9,9 +9,11 @@ pie
   "3. Microsoft Sentinel" : 55
 ```
 
-```mermaid
-pie
-  title My Progress
-  "Microsoft Defender" : 5
-  "My Progress" : 95
-```
+| No. | Domain | Weighting | Progress |
+| --- | --- | ---| --- |
+| 1 | Microsoft Defender | 25-30% | 90% |
+| 2 | Microsoft Defender for Cloud | 20-25% | 10% |
+| 3 | Microsoft Sentinel | 50-55% | 0% |
+
+
+

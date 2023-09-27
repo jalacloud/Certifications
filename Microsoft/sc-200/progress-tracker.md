@@ -4,15 +4,14 @@
 ```mermaid
 pie
   title SC-200 Knowledge Domains
-  "1. Microsoft Defender" : 33
-  "2. Microsoft Defender for Cloud" : 33 
-  "3. Microsoft Sentinel" : 33
+  "1. Microsoft Defender" : 20
+  "2. Microsoft Defender for Cloud" : 25
+  "3. Microsoft Sentinel" : 55
 ```
 
 ```mermaid
 pie
   title My Progress
-  "SC-200" : 75
-  "Current Progress" : 25
+  "Domain 1" : 5
+  "My Progress" : 95
 ```
-

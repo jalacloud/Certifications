@@ -5,5 +5,5 @@
 pie
   title SC-200 Progress Tracker
   "SC-200" : 70
-  "My Progress" 30
+  "My Progress" : 30
 ```

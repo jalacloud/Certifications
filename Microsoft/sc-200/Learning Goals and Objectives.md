@@ -46,84 +46,6 @@
     Defender for Cloud Apps is converged into the M365 Defender portal—no dedicated portal for cloud apps (MCAS). 
     Enable alerts within new policies that you create in the Microsoft Defender portal.
 
-### SUB-DOMAIN 1.1 STUDY NOTES:
-
-Zero-hour Auto Purge (ZAP) - retroactively detects and remediates malicious malware phishing, spam or malware threats delivered by email to Microsoft 365 Exchange Online mailboxes. 
-ZAP doesn’t work for standalone Exchange Online Protection (EOP) environments that protect on-premises exchange mailboxes.
-Kusto Query Language (KQL) is used across multiple products, including Sentinel, Log Analytics and MS Defender for Endpoint.
-Correlation across MS products is key to successfully defending/mitigating threats.
-
-### **Microsoft 365 Defender**
-
-  - Microsoft 365 Defender Portal - correlated view of all incidents across Microsoft Azure estate.
-  - MS Defender enables cross-domain threat correlation (CDTC)
-  - MS Defender is also a type of cloud workload protection platform (CWPP)
-
-  - Microsoft 365 Defender can automatically detect new anomalies by correlating alert events from different Microsoft Security products.
-  - Incidents are based on related alerts.
-  - Clues and alerts are aggregated.
-  - An incident can be categorised as Active or Resolved.
-  - Can manage incidents across devices, users and mailboxes.
-  - M365 Defender is aligned with the MITRE ATT&CK framework.
-
-  - Advanced Hunting is a query-based threat-hunting tool. Explore up to 30 days of raw data.
-  - Based on two types of data/information:
-      1. Event or Activity Data
-      2. Entity Data
-
-### **KQL**
-  - The “Project” parameter is used to select specific columns from tables.
-  - Auto-generate queries using built-in query examples.
-
-### **M365 Defender for Office 365**
-
-Cloud-based email filtering service.
-Industry-leading protection suite - 6.5 trillion signals from email alone.
-Actionable Insights
-Automated Response capabilities
-
-Exchange Online Protection (EOP) policies:
-Standard Protection (suitable for most users)
-Strict Protection (for high-value (HV) targets, increased protection)
-Preset security policies are applied to users after you assign the Standard or Strict preset protection profiles to your users.
-
-M365 Defender investigations and threat explorer tabs rely on data from the policies & rules that you have pre-configured for alerts and detections.
-
-### **M365 Defender for Identity**
-
-Monitors user behaviour and user activities
-Reduction of attack surface by providing detailed security reports and user analytics
-Requires sensors to be installed and deployed on domain controller (DC) systems
-Sensors require the domain admin credentials to be provided in the Defender portal
-Installation of the sensors requires a valid access key to be provided during installation
-User Risk
-Caused when user identity is compromised
-Unusual user behaviours
-Leaked credentials via spam email or phishing email
-Sign-In Risk
-Unfamiliar Sign-in properties
-Atypical Travel
-Malware Linked IP addresses
-Anonymous IP address
-
-
-### **Microsoft 365 Defender for Cloud Apps**
-
-  - https://learn.microsoft.com/en-us/defender-cloud-apps/what-is-defender-for-cloud-apps
-
-Phases of Cloud App Security
-Data Discovery
-Classify Sensitive Information
-Personal label
-Public
-General
-Confidential data
-Highly Confidential data
-Protecting the data 
-Monitor and Report
-
-
-
 ## 1.2 Mitigate endpoint threats by using Microsoft Defender for Endpoint 
 • Manage data retention, alert notification, and advanced features 
 • Recommend security baselines for devices 
@@ -172,8 +94,6 @@ Can be remediated automatically
 Stops attacks as they occur
 
 
-
-
 ## 1.3 Manage extended detection and response (XDR) in Microsoft 365 Defender 
 • Manage incidents across Microsoft 365 Defender products 
 • Manage investigation and remediation actions in the Action Center 
@@ -182,10 +102,90 @@ Stops attacks as they occur
 • Analyze threat analytics 
 • Configure and manage custom detections and alerts 
 
-2 - Mitigate threats using Microsoft Defender for Cloud (20–25%) 
+### DOMAIN 1 STUDY NOTES:
+
+Zero-hour Auto Purge (ZAP) - retroactively detects and remediates malicious malware phishing, spam or malware threats delivered by email to Microsoft 365 Exchange Online mailboxes. 
+ZAP doesn’t work for standalone Exchange Online Protection (EOP) environments that protect on-premises exchange mailboxes.
+Kusto Query Language (KQL) is used across multiple products, including Sentinel, Log Analytics and MS Defender for Endpoint.
+Correlation across MS products is key to successfully defending/mitigating threats.
+
+### **Microsoft 365 Defender**
+
+  - Microsoft 365 Defender Portal - correlated view of all incidents across Microsoft Azure estate.
+  - MS Defender enables cross-domain threat correlation (CDTC)
+  - MS Defender is also a type of cloud workload protection platform (CWPP)
+
+  - Microsoft 365 Defender can automatically detect new anomalies by correlating alert events from different Microsoft Security products.
+  - Incidents are based on related alerts.
+  - Clues and alerts are aggregated.
+  - An incident can be categorised as Active or Resolved.
+  - Can manage incidents across devices, users and mailboxes.
+  - M365 Defender is aligned with the MITRE ATT&CK framework.
+
+  - Advanced Hunting is a query-based threat-hunting tool. Explore up to 30 days of raw data.
+  - Based on two types of data/information:
+      1. Event or Activity Data
+      2. Entity Data
+
+### **KQL**
+  - The “Project” parameter is used to select specific columns from tables.
+  - Auto-generate queries using built-in query examples.
+
+### **M365 Defender for Office 365**
+
+Cloud-based email filtering service.
+Industry-leading protection suite - 6.5 trillion signals from email alone.
+Actionable Insights
+Automated Response capabilities
+
+Exchange Online Protection (EOP) policies:
+Standard Protection (suitable for most users)
+Strict Protection (for high-value (HV) targets, increased protection)
+Preset security policies are applied to users after you assign the Standard or Strict preset protection profiles to your users.
+
+M365 Defender investigations and threat explorer tabs rely on data from the policies & rules that you have pre-configured for alerts and detections.
+
+### **M365 Defender for Identity**
+
+Monitors user behaviour and user activities
+Reduction of attack surface by providing detailed security reports and user analytics
+Requires sensors to be installed and deployed on domain controller (DC) systems
+  - Sensors require the domain admin credentials to be provided in the Defender portal
+  - Installation of the sensors requires a valid access key to be provided during installation
+User Risk
+  - Caused when user identity is compromised
+  - Unusual user behaviours
+  - Leaked credentials via spam email or phishing email
+Sign-In Risk
+  - Unfamiliar Sign-in properties
+  - Atypical Travel
+  - Malware Linked IP addresses
+  - Anonymous IP address
+
+
+### **Microsoft 365 Defender for Cloud Apps**
+
+  - https://learn.microsoft.com/en-us/defender-cloud-apps/what-is-defender-for-cloud-apps
+
+Phases of Cloud App Security
+Data Discovery
+Classify Sensitive Information
+Personal label
+Public
+General
+Confidential data
+Highly Confidential data
+Protecting the data 
+Monitor and Report
+
+
+
+
+## 2 - Mitigate threats using Microsoft Defender for Cloud (20–25%) 
 
 Microsoft Cloud App Security (MCAS) portal is now converged into the Microsoft 365 Defender Portal. 
-2.1 Implement and maintain cloud security posture management and workload protection 
+
+## 2.1 Implement and maintain cloud security posture management and workload protection 
 • Plan and configure Microsoft Defender for Cloud settings, including selecting the target 
 subscriptions and workspaces 
 • Configure Microsoft Defender for Cloud roles 
@@ -193,12 +193,14 @@ subscriptions and workspaces
 • Identify and remediate security risks using the Microsoft Defender for Cloud Secure Score 
 • Manage policies for regulatory compliance 
 • Review and remediate security recommendations 
-2.2 Plan and implement the use of data connectors for ingestion of data sources in Microsoft Defender for Cloud 
+
+## 2.2 Plan and implement the use of data connectors for ingestion of data sources in Microsoft Defender for Cloud 
 • Identify data sources to be ingested for Microsoft Defender for Cloud 
 • Configure automated onboarding for Azure resources 
 • Connect multi-cloud and on-premises resources 
 • Configure data collections 
-2.3 Configure and respond to alerts and incidents in Microsoft Defender for Cloud 
+
+## 2.3 Configure and respond to alerts and incidents in Microsoft Defender for Cloud 
 • Validate alert configuration 
 • Set up email notifications 
 • Create and manage alert suppression rules 
@@ -208,13 +210,14 @@ subscriptions and workspaces
 • Analyze Microsoft Defender for Cloud threat intelligence reports 
 • Manage user data discovered during an investigation 
 
-3 - Mitigate threats using Microsoft Sentinel (50–55%) 
-3.1 Design and configure a Microsoft Sentinel workspace 
+## 3 - Mitigate threats using Microsoft Sentinel (50–55%) 
+## 3.1 Design and configure a Microsoft Sentinel workspace 
 • Plan a Microsoft Sentinel workspace 
 • Configure Microsoft Sentinel roles 
 • Design and configure Microsoft Sentinel data storage 
 • Implement and use Content hub, repositories, and community resources 
-3.2 Plan and implement the use of data connectors for ingestion of data sources in Microsoft Sentinel 
+
+## 3.2 Plan and implement the use of data connectors for ingestion of data sources in Microsoft Sentinel 
 • Identify data sources to be ingested for Microsoft Sentinel 
 • Identify the prerequisites for a Microsoft Sentinel data connector 
 • Configure and use Microsoft Sentinel data connectors 
@@ -223,7 +226,7 @@ subscriptions and workspaces
 • Design and configure Syslog and CEF event collections 
 • Design and configure Windows Security event collections 
 • Configure custom threat intelligence connectors 
-3.3 Manage Microsoft Sentinel analytics rules 
+## 3.3 Manage Microsoft Sentinel analytics rules 
 • Design and configure analytics rules 
 • Activate Microsoft security analytics rules 
 • Configure built-in scheduled queries 
@@ -231,30 +234,35 @@ subscriptions and workspaces
 • Define incident creation logic 
 • Manage and use watchlists 
 • Manage and use threat indicators 
-3.4 Perform data classification and normalisation 
+
+## 3.4 Perform data classification and normalisation 
 • Classify and analyse data by using entities 
 • Create custom logs in Azure Log Analytics to store custom data 
 • Query Microsoft Sentinel data by using Advanced SIEM Information Model (ASIM) parsers 
 • Develop and manage ASIM parsers 
-3.5 Configure Security Orchestration, Automation, and Response (SOAR) in Microsoft Sentinel 
+
+## 3.5 Configure Security Orchestration, Automation, and Response (SOAR) in Microsoft Sentinel 
 • Configure automation rules 
 • Create and configure Microsoft Sentinel playbooks 
 • Configure alerts and incidents to trigger automation 
 • Use automation to remediate threats 
 • Use automation to manage incidents 
-3.6 Manage Microsoft Sentinel incidents 
+
+## 3.6 Manage Microsoft Sentinel incidents 
 • Triage incidents in Microsoft Sentinel 
 • Investigate incidents in Microsoft Sentinel 
 • Respond to incidents in Microsoft Sentinel 
 • Investigate multi-workspace incidents 
 • Identify advanced threats with User and Entity Behavior Analytics (UEBA) 
-3.7 Use Microsoft Sentinel workbooks to analyze and interpret data 
+
+## 3.7 Use Microsoft Sentinel workbooks to analyze and interpret data 
 • Activate and customize Microsoft Sentinel workbook templates 
 • Create custom workbooks
 • Configure advanced visualizations 
 • View and analyze Microsoft Sentinel data using workbooks 
 • Track incident metrics using the security operations efficiency workbook 
-3.8 Hunt for threats using Microsoft Sentinel 
+
+## 3.8 Hunt for threats using Microsoft Sentinel 
 • Create custom hunting queries 
 • Run hunting queries manually 
 • Monitor hunting queries by using Livestream 

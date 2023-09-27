@@ -63,37 +63,6 @@ Mitigate identity threats
 • Identify and remediate security risks related to Azure AD Conditional Access events 
 • Identify and remediate security risks related to Active Directory Domain Services using Microsoft Defender for Identity 
 
-### **Microsoft 365 Defender for Endpoint**
-
-License requirement: Microsoft Defender for Endpoint Plan 2
-Separate license from Microsoft Enterprise Mobility + Security (EMS) E5
-
-Device onboarding
-Create a role to administer and manage Microsoft Defender for Endpoint
-
-Attack Surface Reduction (ASR) Rules
-Exploit Protection
-Application Control
-
-Developer Mindset vs. Security Mindset
-
-Assets
-Devices (device inventory)
-Identities
-
-Behavioural blocking stops threats based on their behaviour.
-Enabled in Defender for Endpoint.
-Next-Generation Protection Feature
-
-Defender for Endpoint = Identities, Emails, Applications, and Endpoints
-
-Applications Controls
-Client behavioural blocking
-Detects suspicious behaviours on devices
-Can be remediated automatically
-Stops attacks as they occur
-
-
 ## 1.3 Manage extended detection and response (XDR) in Microsoft 365 Defender 
 • Manage incidents across Microsoft 365 Defender products 
 • Manage investigation and remediation actions in the Action Center 
@@ -104,80 +73,110 @@ Stops attacks as they occur
 
 ### DOMAIN 1 STUDY NOTES:
 
-Zero-hour Auto Purge (ZAP) - retroactively detects and remediates malicious malware phishing, spam or malware threats delivered by email to Microsoft 365 Exchange Online mailboxes. 
-ZAP doesn’t work for standalone Exchange Online Protection (EOP) environments that protect on-premises exchange mailboxes.
-Kusto Query Language (KQL) is used across multiple products, including Sentinel, Log Analytics and MS Defender for Endpoint.
-Correlation across MS products is key to successfully defending/mitigating threats.
+    Zero-hour Auto Purge (ZAP) - retroactively detects and remediates malicious malware phishing, spam or malware threats delivered by email to Microsoft 365 Exchange Online mailboxes. 
+    ZAP doesn’t work for standalone Exchange Online Protection (EOP) environments that protect on-premises exchange mailboxes.
+    Kusto Query Language (KQL) is used across multiple products, including Sentinel, Log Analytics and MS Defender for Endpoint.
+    Correlation across MS products is key to successfully defending/mitigating threats.
 
 ### **Microsoft 365 Defender**
 
-  - Microsoft 365 Defender Portal - correlated view of all incidents across Microsoft Azure estate.
-  - MS Defender enables cross-domain threat correlation (CDTC)
-  - MS Defender is also a type of cloud workload protection platform (CWPP)
+    - Microsoft 365 Defender Portal - correlated view of all incidents across Microsoft Azure estate.
+    - MS Defender enables cross-domain threat correlation (CDTC)
+    - MS Defender is also a type of cloud workload protection platform (CWPP)
 
-  - Microsoft 365 Defender can automatically detect new anomalies by correlating alert events from different Microsoft Security products.
-  - Incidents are based on related alerts.
-  - Clues and alerts are aggregated.
-  - An incident can be categorised as Active or Resolved.
-  - Can manage incidents across devices, users and mailboxes.
-  - M365 Defender is aligned with the MITRE ATT&CK framework.
+    - Microsoft 365 Defender can automatically detect new anomalies by correlating alert events from different Microsoft Security products.
+    - Incidents are based on related alerts.
+    - Clues and alerts are aggregated.
+    - An incident can be categorised as Active or Resolved.
+    - Can manage incidents across devices, users and mailboxes.
+    - M365 Defender is aligned with the MITRE ATT&CK framework.
 
-  - Advanced Hunting is a query-based threat-hunting tool. Explore up to 30 days of raw data.
-  - Based on two types of data/information:
+    - Advanced Hunting is a query-based threat-hunting tool. Explore up to 30 days of raw data.
+    - Based on two types of data/information:
       1. Event or Activity Data
       2. Entity Data
 
 ### **KQL**
-  - The “Project” parameter is used to select specific columns from tables.
-  - Auto-generate queries using built-in query examples.
+    
+    The “Project” parameter is used to select specific columns from tables.
+    Auto-generate queries using built-in query examples.
 
 ### **M365 Defender for Office 365**
 
-Cloud-based email filtering service.
-Industry-leading protection suite - 6.5 trillion signals from email alone.
-Actionable Insights
-Automated Response capabilities
+    Cloud-based email filtering service.
+    Industry-leading protection suite - 6.5 trillion signals from email alone.
+    Actionable Insights
+    Automated Response capabilities
 
-Exchange Online Protection (EOP) policies:
-Standard Protection (suitable for most users)
-Strict Protection (for high-value (HV) targets, increased protection)
-Preset security policies are applied to users after you assign the Standard or Strict preset protection profiles to your users.
+    Exchange Online Protection (EOP) policies:
+    Standard Protection (suitable for most users)
+    Strict Protection (for high-value (HV) targets, increased protection)
+    Preset security policies are applied to users after you assign the Standard or Strict preset protection profiles to your users.
 
-M365 Defender investigations and threat explorer tabs rely on data from the policies & rules that you have pre-configured for alerts and detections.
+M365 Defender **investigations** and threat **explorer** tabs rely on data from the **policies & rules** you have pre-configured for alerts and detections.
 
 ### **M365 Defender for Identity**
 
-Monitors user behaviour and user activities
-Reduction of attack surface by providing detailed security reports and user analytics
-Requires sensors to be installed and deployed on domain controller (DC) systems
-  - Sensors require the domain admin credentials to be provided in the Defender portal
-  - Installation of the sensors requires a valid access key to be provided during installation
-User Risk
-  - Caused when user identity is compromised
-  - Unusual user behaviours
-  - Leaked credentials via spam email or phishing email
-Sign-In Risk
-  - Unfamiliar Sign-in properties
-  - Atypical Travel
-  - Malware Linked IP addresses
-  - Anonymous IP address
+    Monitors user behaviour and user activities
+    Reduction of attack surface by providing detailed security reports and user analytics
+    Requires sensors to be installed and deployed on domain controller (DC) systems
+      - Sensors require the domain admin credentials to be provided in the Defender portal
+      - Installation of the sensors requires a valid access key to be provided during installation
+    User Risk
+      - Caused when user identity is compromised
+      - Unusual user behaviours
+      - Leaked credentials via spam email or phishing email
+    Sign-In Risk
+      - Unfamiliar Sign-in properties
+      - Atypical Travel
+      - Malware Linked IP addresses
+      - Anonymous IP address
 
 
 ### **Microsoft 365 Defender for Cloud Apps**
 
-  - https://learn.microsoft.com/en-us/defender-cloud-apps/what-is-defender-for-cloud-apps
+https://learn.microsoft.com/en-us/defender-cloud-apps/what-is-defender-for-cloud-apps
 
-Phases of Cloud App Security
-Data Discovery
-Classify Sensitive Information
-Personal label
-Public
-General
-Confidential data
-Highly Confidential data
-Protecting the data 
-Monitor and Report
+    Phases of Cloud App Security
+    - Data Discovery
+    - Classify Sensitive Information
+      - Personal label
+      - Public
+      - General
+      - Confidential data
+      - Highly Confidential data
+    - Protecting the data 
+    - Monitor and Report
 
+### **Microsoft 365 Defender for Endpoint**
+
+    License requirement: Microsoft Defender for Endpoint Plan 2
+    Separate license from Microsoft Enterprise Mobility + Security (EMS) E5
+
+    Device onboarding
+      - Need to create a role to administer and manage Microsoft Defender for Endpoint
+
+    Attack Surface Reduction (ASR) Rules
+      - Exploit Protection
+      - Application Control
+
+    Developer Mindset vs. Security Mindset
+
+    Assets
+      - Devices (device inventory)
+      - Identities
+
+    Behavioural blocking stops threats based on their behaviour.
+    Enabled in Defender for Endpoint.
+    Next-Generation Protection Feature
+
+    Defender for Endpoint = Identities, Emails, Applications, and Endpoints
+
+    Applications Controls
+      - Client behavioural blocking
+      - Detects suspicious behaviours on devices
+      - Can be remediated automatically
+      - Stops attacks as they occur
 
 
 

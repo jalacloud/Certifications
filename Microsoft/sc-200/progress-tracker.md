@@ -12,6 +12,6 @@ pie
 ```mermaid
 pie
   title My Progress
-  "Domain 1" : 5
+  "Microsoft Defender" : 5
   "My Progress" : 95
 ```

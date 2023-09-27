@@ -6,7 +6,7 @@
 [SC-200 Study Guide](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4Myp3)
 
 ## Online Courses:
-[Udemy](https://www.udemy.com/course/sc-200-microsoft-security-operations-analyst-exam-prep/)
+[Udemy - SC-200: Microsoft Security Operations Analyst](https://www.udemy.com/course/sc-200-microsoft-security-operations-analyst-exam-prep/)
 
 
 ## Labs

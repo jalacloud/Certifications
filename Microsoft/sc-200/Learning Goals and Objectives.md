@@ -51,8 +51,10 @@
 • Recommend security baselines for devices 
 • Respond to incidents and alerts 
 • Manage automated investigations and remediations
-Attack Surface Reduction (ASR)
-Automated Incident Response (AIR)
+
+    Attack Surface Reduction (ASR)
+    Automated Incident Response (AIR)
+
 • Assess and recommend endpoint configurations to reduce and remediate vulnerabilities by 
 using Microsoft's threat and vulnerability management solution 
 • Manage endpoint threat indicators 
@@ -64,12 +66,12 @@ Mitigate identity threats
 • Identify and remediate security risks related to Active Directory Domain Services using Microsoft Defender for Identity 
 
 ### 1.3 Manage extended detection and response (XDR) in Microsoft 365 Defender 
-• Manage incidents across Microsoft 365 Defender products 
-• Manage investigation and remediation actions in the Action Center 
-• Perform threat hunting 
-• Identify and remediate security risks using Microsoft Secure Score 
-• Analyze threat analytics 
-• Configure and manage custom detections and alerts 
+- Manage incidents across Microsoft 365 Defender products 
+- Manage investigation and remediation actions in the Action Center
+- Perform threat hunting
+- Identify and remediate security risks using Microsoft Secure Score
+- Analyze threat analytics
+- Configure and manage custom detections and alerts 
 
 ## DOMAIN 1 STUDY NOTES:
 
@@ -177,7 +179,10 @@ https://learn.microsoft.com/en-us/defender-cloud-apps/what-is-defender-for-cloud
       - Detects suspicious behaviours on devices
       - Can be remediated automatically
       - Stops attacks as they occur
-
+      
+    There are two (2) types of functions you can perform on a device in MDE;
+      1. Containment Actions
+      2. Investigation Actions
 
 
 ## 2 - Mitigate threats using Microsoft Defender for Cloud (20–25%) 

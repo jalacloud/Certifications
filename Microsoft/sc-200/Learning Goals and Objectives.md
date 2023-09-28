@@ -8,62 +8,61 @@
 
 
 ### 1.1 Mitigate threats to the productivity environment by using Microsoft 365 Defender 
-  • Investigate, respond, and remediate threats to Microsoft Teams, SharePoint, and OneDrive 
-  • Investigate, respond, and remediate threats to email by using Microsoft Defender for Office 365
+  - Investigate, respond, and remediate threats to Microsoft Teams, SharePoint, and OneDrive
+  - Investigate, respond, and remediate threats to email by using Microsoft Defender for Office 365
 
     Preset security policies [‘built-in’, ‘standard’, ‘strict’]
     Exchange Online Protection (EOP) policies work together with Office 365 policies.
 
   - https://mslearn.cloudguides.com/guides/Protect%20your%20organization%20with%20Microsoft%20365%20Defender
- 
-  • Investigate and respond to alerts generated from Data Loss Prevention policies
-  
-    Identify sensitive information across multiple platforms.
-    Identify information inside a document, for example, credit card numbers.
-    **Prevent** accidental sharing.
-    Monitor and protect sensitive information.
-    DLP alerts and reports based on associated policies.
-    DLP policies can be applied across the Microsoft product suite.
-    Restrict third-party access/sharing: Google/G-Suite, Box, Dropbox…etc.
+  - Investigate and respond to alerts generated from Data Loss Prevention policies
+    
+        Identify sensitive information across multiple platforms.
+        Identify information inside a document, for example, credit card numbers.
+        **Prevent** accidental sharing.
+        Monitor and protect sensitive information.
+        DLP alerts and reports based on associated policies.
+        DLP policies can be applied across the Microsoft product suite.
+        Restrict third-party access/sharing: Google/G-Suite, Box, Dropbox…etc.
 
   - https://compliance.microsoft.com/datalossprevention/overview
 
-  • Investigate and respond to alerts generated from insider risk policies 
+  - Investigate and respond to alerts generated from insider risk policies
 
-    Policy / Scope
-    Alerts (created inside the policies)
-    Triage (evaluation and assignment)
-    Investigate
-    Action
+        Policy / Scope
+        Alerts (created inside the policies)
+        Triage (evaluation and assignment)
+        Investigate
+        Action
     
-    Insider Risk Management Admin role is required for creating, assigning and managing Insider Risk Management (IRM) policies/alerts.
+        Insider Risk Management Admin role is required for creating, assigning and managing Insider Risk Management (IRM) policies/alerts.
 
 
+  - Identify, investigate, and remediate security risks by using Microsoft Defender for Cloud Apps
+  - Configure Microsoft Defender for Cloud Apps to generate alerts and reports to detect threats
 
-  • Identify, investigate, and remediate security risks by using Microsoft Defender for Cloud Apps 
-  • Configure Microsoft Defender for Cloud Apps to generate alerts and reports to detect threats
+        Defender for Cloud Apps is converged into the M365 Defender portal—no dedicated portal for cloud apps (MCAS). 
+        Enable alerts within new policies that you create in the Microsoft Defender portal.
 
-    Defender for Cloud Apps is converged into the M365 Defender portal—no dedicated portal for cloud apps (MCAS). 
-    Enable alerts within new policies that you create in the Microsoft Defender portal.
 
 ### 1.2 Mitigate endpoint threats by using Microsoft Defender for Endpoint 
-• Manage data retention, alert notification, and advanced features 
-• Recommend security baselines for devices 
-• Respond to incidents and alerts 
-• Manage automated investigations and remediations
+- Manage data retention, alert notification, and advanced features
+- Recommend security baselines for devices
+- Respond to incidents and alerts
+- Manage automated investigations and remediations
 
-    Attack Surface Reduction (ASR)
-    Automated Incident Response (AIR)
+      Attack Surface Reduction (ASR)
+      Automated Incident Response (AIR)
 
-• Assess and recommend endpoint configurations to reduce and remediate vulnerabilities by 
+- Assess and recommend endpoint configurations to reduce and remediate vulnerabilities by 
 using Microsoft's threat and vulnerability management solution 
-• Manage endpoint threat indicators 
-Mitigate identity threats 
-• Identify and remediate security risks related to events for Microsoft Azure Active Directory 
-(Azure AD), part of Microsoft Entra 
-• Identify and remediate security risks related to Azure AD Identity Protection events 
-• Identify and remediate security risks related to Azure AD Conditional Access events 
-• Identify and remediate security risks related to Active Directory Domain Services using Microsoft Defender for Identity 
+- Manage endpoint threat indicators
+- Mitigate identity threats
+- Identify and remediate security risks related to events for Microsoft Azure Active Directory 
+(Azure AD), part of Microsoft Entra
+- Identify and remediate security risks related to Azure AD Identity Protection events
+- Identify and remediate security risks related to Azure AD Conditional Access events
+- Identify and remediate security risks related to Active Directory Domain Services using Microsoft Defender for Identity 
 
 ### 1.3 Manage extended detection and response (XDR) in Microsoft 365 Defender 
 - Manage incidents across Microsoft 365 Defender products 

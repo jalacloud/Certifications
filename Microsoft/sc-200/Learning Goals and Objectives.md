@@ -46,7 +46,7 @@
 
 
 ### 1.2 Mitigate endpoint threats by using Microsoft Defender for Endpoint 
-- Manage data retention, alert notification, and advanced features
+- Manage data retention, alert notification, and advanced feature
 - Recommend security baselines for devices
 - Respond to incidents and alerts
 - Manage automated investigations and remediations

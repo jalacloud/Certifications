@@ -158,8 +158,10 @@ https://learn.microsoft.com/en-us/defender-cloud-apps/what-is-defender-for-cloud
       - Need to create a role to administer and manage Microsoft Defender for Endpoint
 
     Attack Surface Reduction (ASR) Rules
+      - Attack Surface Reduction (ConfigMgr) <- allows extensive protection against threats using child processes and malicious content execution
       - Exploit Protection
       - Application Control
+      - Web Protection
 
     Developer Mindset vs. Security Mindset
 
@@ -182,6 +184,31 @@ https://learn.microsoft.com/en-us/defender-cloud-apps/what-is-defender-for-cloud
     There are two (2) types of functions you can perform on a device in MDE;
       1. Containment Actions
       2. Investigation Actions
+
+    MDE Advanced Features:
+      - Automated investigation
+      - EDR in block mode (behaviour blocking)
+      - Automatically resolve alerts 
+      - Allow or block file
+
+    Microsoft 365 Defender -> Settings -> Endpoints -> Automation Uploads
+    Automation Uploads
+      - File content analysis
+      - Memory content analysis
+
+    Automation Levels (MDE) - Device remediation actions
+      - No automation
+      - Semi (require approval for all folders)
+      - Semi (require approval for non-temp folders)
+      - Semi (require approval for core folders)
+      - Full (remediate threats automatically)
+
+    Blocking risky users via Conditional Access
+      - Conditional access for users/identities
+      - Conditional access for devices (using intune: endpoint.microsoft.com)
+
+    
+    
 
 
 ## 2 - Mitigate threats using Microsoft Defender for Cloud (20–25%) 

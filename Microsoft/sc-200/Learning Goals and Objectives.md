@@ -57,6 +57,13 @@
 - Assess and recommend endpoint configurations to reduce and remediate vulnerabilities by 
 using Microsoft's threat and vulnerability management solution 
 - Manage endpoint threat indicators
+
+      Indicators of compromise (IOC)
+        - File Hash
+        - IP addresses
+        - URL/Domain
+      Can configure a total of 15,000 IOCs per tenant
+  
 - Mitigate identity threats
 - Identify and remediate security risks related to events for Microsoft Azure Active Directory 
 (Azure AD), part of Microsoft Entra

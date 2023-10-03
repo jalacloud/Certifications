@@ -212,6 +212,7 @@ https://learn.microsoft.com/en-us/defender-cloud-apps/what-is-defender-for-cloud
 
 
 ## 2 - Mitigate threats using Microsoft Defender for Cloud (20–25%) 
+https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-cloud-introduction
 
 Microsoft Cloud App Security (MCAS) portal is now converged into the Microsoft 365 Defender Portal. 
 

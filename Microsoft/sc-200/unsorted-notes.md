@@ -18,3 +18,18 @@ Notes taken while going through Udemy course: https://udemy.com/course/sc-200-mi
 Workflow automation 
 - used for creating automated actions to be taken when suspicious files/actions have been detected
 
+#### Defender for Office 365
+- Provides cloud-based email protection
+- Can be enabled to protect Exchange Online cloud-hosted mailboxes
+- Can be used in a hybrid deployment to protect messaging and control mail routing with a mix of on-premises and cloud mailboxes with Exchange Online Protection (EOP)
+- Provides inbound email filtering
+
+Automated Investigation and Response (AIR)
+- Uses a set of playbooks and triggers (alerts) to launch automated investigation and response activities
+- Remediation actions in AIR include:
+    - Soft delete email messages or clusters
+    - Block URL (time-of-click)
+    - Turn off external mail forwarding
+    - Turn off delegation
+
+ 

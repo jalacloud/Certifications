@@ -1,0 +1,148 @@
+
+
+CCSP Revision Notes - April 20, 2022
+
+---
+
+
+DOMAIN 2 - DATA SECURITY
+
+Dynamic masking is done between the data and application layers, and is meant for transaction purposes rather than the production of data sets.
+
+
+RISK MANAGEMENT
+
+ISO 31000:2018 - Risk Management - Guidelines
+ISO 31000 Risk Management Framework
+
+RMF Phases:
+1. Integration
+2. Design
+3. Implementation
+4. Evaluation
+5. Improvement
+
+Risk treatment is the process of appropriately handling identified risks.
+Includes decisions like: 
+- Avoid
+- Mitigate
+- Transfer
+- Accept
+
+
+TRANSPORT LAYER SECURITY (TLS)
+- Successor to Secure Sockets Layer (SSL)
+- Runs in the application layer
+- Comprised of two layers:
+	- TLS record protocol
+	- TLS handshake protocol
+- Both asymmetric and symmetric encryption is used in TLS
+
+TLS negotiates a STATEFUL connection using the handshake procedure. 
+TLS uses a handshake with an asymmetric cipher to establish a session-specific shared key
+The session-specific key is encrypted using a symmetric cipher for further on-going communication
+
+
+DISASTER RECOVERY / BUSINESS CONTINUITY STRATEGY
+
+Key Phases in BCDR:
+1.	DEFINE scope
+2.	Gather REQUIREMENTS
+3.	ANALYSE (the requirements)
+4.	ASSESS risk 
+5.	DESIGN
+6.	IMPLEMENT the BCDR plan
+7.	TEST
+	- Tabletop exercise (least impact, least thorough)
+	- Walk-through drill (support and operational personnel - practice and validation of response capabilities)
+	- Functional drill (involves moving personnel to the recovery site and perform real recovery processing)
+		- Also considered a parallel test
+	- Full-interruption
+		- Includes system failover and facility evacuation
+		- This test is most useful for detecting shortcomings
+		- Had the greatest impact on  productivity
+8.	REPORT
+9.	REVISE
+
+BCDR is a CONTINUAL process
+
+
+OWASP Top 10 (2017) Notes:
+
+01. INJECTION
+	- What is it?
+		- User-supplied data is not validated, filtered, or sanitised by the application.
+		- Hostile data is directly used or concatenated.
+		- Most common injections are; SQL, NoSQL, OS Command, LDAP...etc
+	- How to detect injection?
+		- BEST method for detecting injection vulns is SOURCE CODE REVIEW
+		- Thorough automated testing of all parameters, headers, URL, cookies, JSON, SOAP and XML data inputs.
+		- Organisations can use SAST and DAST tools in CI/CD pipelines to identify injection flaws.
+	- How to mitigate injection?
+		- Preferred option is to use a SAFE API which avoids use of interpreter entirely
+		- Server-side input validation
+		- Use LIMIT and other SQL controls to prevent mass disclosure of records in case of SQL injection
+	- Business Impact
+		- Data loss
+		- Data corruption
+		- Disclosure to unauthorised parties
+		- Denial of access
+
+02.	 BROKEN AUTHENTICATION
+	- What is it?
+		- Permits automated attacks such as; credential stuffing (attacker using a list of valid usernames/passwords)
+		- Permits brute force or other automated attacks
+		- Uses weak or ineffective credential recovery and forgot-password processes
+		- Uses plain-text or weak encryption of passwords
+	- How to detect broken auth?
+		- Mostly manual authentication attempts
+		- using automated authentication tools to exploit
+	- How to mitigate broken auth?
+		- Where possible, implement MFA to prevent automated attacks, cred stuffinf, brute force...etc.
+		- Do not ship or deploy with any default credentials
+		- Implement weak-password checks
+	- Business impact?
+		- Unauthorised disclosure of sensitive information
+		- Data breach
+		- Data loss
+		- identity theft
+
+03.	SENSITIVE DATA EXPOSURE
+
+
+
+07. Cross-Site Scripting (XSS)
+	- What is it?
+		- 3 forms of XSS, targeting users' browsers
+			- Reflected XSS
+				- The application or API includes unvalidated and unescaped user input as part of HTML output.
+				- A successful attack can allow the attacker to execute arbitrary HTML and JavaScript in the victim's browser.
+				- Typically the user wull need to interact with some malicious link that points to an attacker-controlled page.
+			- Stored XSS
+				- The application or API stores unsanitized user input that is viewed at a later time by another user or an administrator.
+				- Stored XSS is often considered a high or critical risk.
+			- DOM XSS
+				- JavaScript frameworks, single-page applications, and APIs that dynamically include attacker-controllable data to a page are vulnerable to DOM XSS.
+		- How to detect XSS?
+			- XSS is mostly detected through automated tools.
+		- How to mitigate XSS?
+			- Use frameworks that automatically escape XSS by design.
+			- Escaping untrusted HTTP request data based on the context in the HTML body.
+			- Enabling a Content Security Policy (CSP) us a defense-in-depth mitigating control against XSS
+		- Business impact?
+			- Credential theft
+			- Identity theft
+
+CSRF
+
+SSRF
+
+
+
+
+
+
+
+
+
+

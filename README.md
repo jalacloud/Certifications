@@ -3,7 +3,7 @@
 This is a public space to store and share all my key learning resources and notes I've taken for various certification exams. 
 
   - [CISSP](/CISSP/readme.md)
-  - [CCSP](/CCSP/readme.md)
+  - [CCSP](/ISC2/CCSP/readme.md)
   - [Micrsoft](/Microsoft/)
     - [SC-200](/Microsoft/sc-200/)
   - [SABSA](/SABSA/)

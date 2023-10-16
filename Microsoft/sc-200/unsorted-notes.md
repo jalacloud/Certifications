@@ -6,6 +6,17 @@ Notes taken while going through Udemy course: https://udemy.com/course/sc-200-mi
 - Provides Adaptive Network Hardening (ANH)
 - Defender for cloud apps is enabled by default as soon as you create a new Azure web app
 
+How Defender for Cloud identifies threats:
+- Integrated Threat Intelligence (Azure, M365, CRM Online, Outlook, MSN, Digital Crimes Unit (DCU), MS Security Response Centre)
+- Behavioural Analytics (UEBA)
+- Anomaly Detection
+
+
+- Connecting non-azure services to Microsoft Defender
+  - Two methods:
+    1. Azure ARC
+    2. On-board via Defender portal - install Log Analytics agent
+
 
 #### Defender for Storage
 - Azure-native security

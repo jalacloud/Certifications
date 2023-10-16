@@ -257,6 +257,10 @@ https://learn.microsoft.com/en-us/defender-cloud-apps/what-is-defender-for-cloud
     Microsoft Defender for cloud, specifically for container registries, includes a vulnerability scanner to scan all container images.
     Qualys provide the defender for cloud integrated vuln scanner.
 
+    Log Analytics agent is used to collect all the data from all the assets in the Azure inventory. 
+    Data, event, and log information is copied to a log analytics workspace.
+    *Auto-provisioning* reduces management overhead by automatically deploying the log analytics extension/agent on Azure assets.
+
     
 
 ### **Microsoft 365 Defender for Endpoint**

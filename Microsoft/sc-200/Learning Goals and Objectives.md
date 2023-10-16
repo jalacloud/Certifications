@@ -79,144 +79,6 @@ using Microsoft's threat and vulnerability management solution
 - Analyze threat analytics
 - Configure and manage custom detections and alerts 
 
-## DOMAIN 1 STUDY NOTES:
-
-    Zero-hour Auto Purge (ZAP) - retroactively detects and remediates malicious malware phishing, spam or malware threats delivered by email to Microsoft 365 Exchange Online mailboxes. 
-    ZAP doesn’t work for standalone Exchange Online Protection (EOP) environments that protect on-premises exchange mailboxes.
-    Kusto Query Language (KQL) is used across multiple products, including Sentinel, Log Analytics and MS Defender for Endpoint.
-    Correlation across MS products is key to successfully defending/mitigating threats.
-
-### **Microsoft 365 Defender**
-
-    - Microsoft 365 Defender Portal - correlated view of all incidents across Microsoft Azure estate.
-    - MS Defender enables cross-domain threat correlation (CDTC)
-    - MS Defender is also a type of cloud workload protection platform (CWPP)
-
-    - Microsoft 365 Defender can automatically detect new anomalies by correlating alert events from different Microsoft Security products.
-    - Incidents are based on related alerts.
-    - Clues and alerts are aggregated.
-    - An incident can be categorised as Active or Resolved.
-    - Can manage incidents across devices, users and mailboxes.
-    - M365 Defender is aligned with the MITRE ATT&CK framework.
-
-    - Advanced Hunting is a query-based threat-hunting tool. Explore up to 30 days of raw data.
-    - Based on two types of data/information:
-      1. Event or Activity Data
-      2. Entity Data
-
-### **KQL**
-    
-    The “Project” parameter is used to select specific columns from tables.
-    Auto-generate queries using built-in query examples.
-
-### **M365 Defender for Office 365**
-
-    Cloud-based email filtering service.
-    Industry-leading protection suite - 6.5 trillion signals from email alone.
-    Actionable Insights
-    Automated Response capabilities
-
-    Exchange Online Protection (EOP) policies:
-    Standard Protection (suitable for most users)
-    Strict Protection (for high-value (HV) targets, increased protection)
-    Preset security policies are applied to users after you assign the Standard or Strict preset protection profiles to your users.
-
-M365 Defender **investigations** and threat **explorer** tabs rely on data from the **policies & rules** you have pre-configured for alerts and detections.
-
-### **M365 Defender for Identity**
-
-    Monitors user behaviour and user activities
-    Reduction of attack surface by providing detailed security reports and user analytics
-    Requires sensors to be installed and deployed on domain controller (DC) systems
-      - Sensors require the domain admin credentials to be provided in the Defender portal
-      - Installation of the sensors requires a valid access key to be provided during installation
-    User Risk
-      - Caused when user identity is compromised
-      - Unusual user behaviours
-      - Leaked credentials via spam email or phishing email
-    Sign-In Risk
-      - Unfamiliar Sign-in properties
-      - Atypical Travel
-      - Malware Linked IP addresses
-      - Anonymous IP address
-
-
-### **Microsoft 365 Defender for Cloud Apps**
-
-https://learn.microsoft.com/en-us/defender-cloud-apps/what-is-defender-for-cloud-apps
-
-    Phases of Cloud App Security
-    - Data Discovery
-    - Classify Sensitive Information
-      - Personal label
-      - Public
-      - General
-      - Confidential data
-      - Highly Confidential data
-    - Protecting the data 
-    - Monitor and Report
-
-### **Microsoft 365 Defender for Endpoint**
-
-    License requirement: Microsoft Defender for Endpoint Plan 2
-    Separate license from Microsoft Enterprise Mobility + Security (EMS) E5
-
-    Device onboarding
-      - Need to create a role to administer and manage Microsoft Defender for Endpoint
-
-    Attack Surface Reduction (ASR) Rules
-      - Attack Surface Reduction (ConfigMgr) <- allows extensive protection against threats using child processes and malicious content execution
-      - Exploit Protection
-      - Application Control
-      - Web Protection
-
-    Developer Mindset vs. Security Mindset
-
-    Assets
-      - Devices (device inventory)
-      - Identities
-
-    Behavioural blocking stops threats based on their behaviour.
-    Enabled in Defender for Endpoint.
-    Next-Generation Protection Feature
-
-    Defender for Endpoint = Identities, Emails, Applications, and Endpoints
-
-    Applications Controls
-      - Client behavioural blocking
-      - Detects suspicious behaviours on devices
-      - Can be remediated automatically
-      - Stops attacks as they occur
-      
-    There are two (2) types of functions you can perform on a device in MDE;
-      1. Containment Actions
-      2. Investigation Actions
-
-    MDE Advanced Features:
-      - Automated investigation
-      - EDR in block mode (behaviour blocking)
-      - Automatically resolve alerts 
-      - Allow or block file
-
-    Microsoft 365 Defender -> Settings -> Endpoints -> Automation Uploads
-    Automation Uploads
-      - File content analysis
-      - Memory content analysis
-
-    Automation Levels (MDE) - Device remediation actions
-      - No automation
-      - Semi (require approval for all folders)
-      - Semi (require approval for non-temp folders)
-      - Semi (require approval for core folders)
-      - Full (remediate threats automatically)
-
-    Blocking risky users via Conditional Access
-      - Conditional access for users/identities
-      - Conditional access for devices (using intune: endpoint.microsoft.com)
-
-    
-    
-
 
 ## 2 - Mitigate threats using Microsoft Defender for Cloud (20–25%) 
 https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-cloud-introduction
@@ -310,3 +172,147 @@ subscriptions and workspaces
 • Track query results with bookmarks 
 • Use hunting bookmarks for data investigations 
 • Convert a hunting query to an analytical rule
+
+---------------------------------------------------------------------------------------
+
+# DOMAIN 1 STUDY NOTES:
+
+    Zero-hour Auto Purge (ZAP) - retroactively detects and remediates malicious malware phishing, spam or malware threats delivered by email to Microsoft 365 Exchange Online mailboxes. 
+    ZAP doesn’t work for standalone Exchange Online Protection (EOP) environments that protect on-premises exchange mailboxes.
+    Kusto Query Language (KQL) is used across multiple products, including Sentinel, Log Analytics and MS Defender for Endpoint.
+    Correlation across MS products is key to successfully defending/mitigating threats.
+
+### **Microsoft 365 Defender**
+
+    - Microsoft 365 Defender Portal - correlated view of all incidents across Microsoft Azure estate.
+    - MS Defender enables cross-domain threat correlation (CDTC)
+    - MS Defender is also a type of cloud workload protection platform (CWPP)
+
+    - Microsoft 365 Defender can automatically detect new anomalies by correlating alert events from different Microsoft Security products.
+    - Incidents are based on related alerts.
+    - Clues and alerts are aggregated.
+    - An incident can be categorised as Active or Resolved.
+    - Can manage incidents across devices, users and mailboxes.
+    - M365 Defender is aligned with the MITRE ATT&CK framework.
+
+    - Advanced Hunting is a query-based threat-hunting tool. Explore up to 30 days of raw data.
+    - Based on two types of data/information:
+      1. Event or Activity Data
+      2. Entity Data
+
+### **KQL**
+    
+    The “Project” parameter is used to select specific columns from tables.
+    Auto-generate queries using built-in query examples.
+
+### **M365 Defender for Office 365**
+
+    Cloud-based email filtering service.
+    Industry-leading protection suite - 6.5 trillion signals from email alone.
+    Actionable Insights
+    Automated Response capabilities
+
+    Exchange Online Protection (EOP) policies:
+    Standard Protection (suitable for most users)
+    Strict Protection (for high-value (HV) targets, increased protection)
+    Preset security policies are applied to users after you assign the Standard or Strict preset protection profiles to your users.
+
+M365 Defender **investigations** and threat **explorer** tabs rely on data from the **policies & rules** you have pre-configured for alerts and detections.
+
+### **M365 Defender for Identity**
+
+    Monitors user behaviour and user activities
+    Reduction of attack surface by providing detailed security reports and user analytics
+    Requires sensors to be installed and deployed on domain controller (DC) systems
+      - Sensors require the domain admin credentials to be provided in the Defender portal
+      - Installation of the sensors requires a valid access key to be provided during installation
+    User Risk
+      - Caused when user identity is compromised
+      - Unusual user behaviours
+      - Leaked credentials via spam email or phishing email
+    Sign-In Risk
+      - Unfamiliar Sign-in properties
+      - Atypical Travel
+      - Malware Linked IP addresses
+      - Anonymous IP address
+
+
+### **Microsoft 365 Defender for Cloud Apps**
+
+https://learn.microsoft.com/en-us/defender-cloud-apps/what-is-defender-for-cloud-apps
+
+    Microsoft Defender is enabled on all child cloud applications when Microsoft Defender is enabled at the SUBSCRIPTION level.
+    
+    Phases of Cloud App Security
+    - Data Discovery
+    - Classify Sensitive Information
+      - Personal label
+      - Public
+      - General
+      - Confidential data
+      - Highly Confidential data
+    - Protecting the data 
+    - Monitor and Report
+
+    Microsoft Defender for cloud, specifically for container registries, includes a vulnerability scanner to scan all container images.
+    Qualys provide the defender for cloud integrated vuln scanner.
+
+    
+
+### **Microsoft 365 Defender for Endpoint**
+
+    License requirement: Microsoft Defender for Endpoint Plan 2
+    Separate license from Microsoft Enterprise Mobility + Security (EMS) E5
+
+    Device onboarding
+      - Need to create a role to administer and manage Microsoft Defender for Endpoint
+
+    Attack Surface Reduction (ASR) Rules
+      - Attack Surface Reduction (ConfigMgr) <- allows extensive protection against threats using child processes and malicious content execution
+      - Exploit Protection
+      - Application Control
+      - Web Protection
+
+    Developer Mindset vs. Security Mindset
+
+    Assets
+      - Devices (device inventory)
+      - Identities
+
+    Behavioural blocking stops threats based on their behaviour.
+    Enabled in Defender for Endpoint.
+    Next-Generation Protection Feature
+
+    Defender for Endpoint = Identities, Emails, Applications, and Endpoints
+
+    Applications Controls
+      - Client behavioural blocking
+      - Detects suspicious behaviours on devices
+      - Can be remediated automatically
+      - Stops attacks as they occur
+      
+    There are two (2) types of functions you can perform on a device in MDE;
+      1. Containment Actions
+      2. Investigation Actions
+
+    MDE Advanced Features:
+      - Automated investigation
+      - EDR in block mode (behaviour blocking)
+      - Automatically resolve alerts 
+      - Allow or block file
+
+    Microsoft 365 Defender -> Settings -> Endpoints -> Automation Uploads
+    Automation Uploads
+      - File content analysis
+      - Memory content analysis
+
+    Automation Levels (MDE) - Device remediation actions
+      - No automation
+      - Semi (require approval for all folders)
+      - Semi (require approval for non-temp folders)
+      - Semi (require approval for core folders)
+      - Full (remediate threats automatically)
+
+    Blocking risky users via Conditional Access
+      - Conditional access for users/identities
+      - Conditional access for devices (using intune: endpoint.microsoft.com)

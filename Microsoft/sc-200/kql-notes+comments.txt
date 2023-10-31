@@ -1,0 +1,166 @@
+// take
+// Returns rows up to a pre-set count.  Good for testing out your query at a small scale before use.
+
+DeviceNetworkEvents
+| take 10 // results are random
+
+// let
+// Declares a variable that can be used later in the query.
+// - A semicolon must exist after every let statement
+
+let avn = "Hello dear students";
+print avn
+
+// count
+// Returns the row count for a tabular dataset
+
+DeviceNetworkEvents
+| count 
+
+// sort
+// Orders the dataset based on the specified column
+
+DeviceNetworkEvents
+| sort by Timestamp desc
+| take 10
+
+// top
+// Returns an ordered list of rows based on the column specified
+
+DeviceNetworkEvents
+| top 10 by Timestamp desc
+
+//getschema
+DeviceNetworkEvents
+| getschema
+
+// distinct
+// Returns a table of unique results based on the column(s) specified
+
+DeviceNetworkEvents
+| distinct ActionType
+
+// project
+// project-away
+// - Reduce columns returned from a dataset
+
+DeviceNetworkEvents
+| project Timestamp, DeviceName, RemotePort
+
+DeviceNetworkEvents
+| project-away Timestamp, DeviceName, RemotePort
+
+// project-rename
+// - Rename columns in a dataset
+
+DeviceNetworkEvents
+| project-rename Port = RemotePort
+| project Timestamp, DeviceName, Port
+
+// extend
+// Adds a column to the current dataset
+
+DeviceNetworkEvents
+| extend IPandPort = strcat(LocalIP, ":",LocalPort)
+| project IPandPort
+
+DeviceNetworkEvents
+| project AdditionalFields
+
+// parse
+DeviceNetworkEvents
+| where isnotempty( AdditionalFields)
+| extend Signature = tostring(parse_json(AdditionalFields).SignatureName)
+| project Signature
+
+// where
+// Used to filter a tables results based on a Boolean expression
+
+DeviceNetworkEvents
+| where ActionType == "ConnectionFailed" and RemotePort == "80"
+
+DeviceNetworkEvents
+| where ActionType =~ "Connectionfailed"
+
+DeviceNetworkEvents
+| where ActionType != "ConnectionFailed"
+
+DeviceNetworkEvents
+| where Timestamp > ago(1h)
+| top 100 by Timestamp desc
+
+DeviceNetworkEvents
+| where isnotempty(RemoteUrl)
+
+// search
+// Searches the entire dataset for a given value
+
+DeviceNetworkEvents |
+search "ConnectionSuccess"
+
+// Joins
+// - Links two datasets together based on a common key
+// - Can heavily impact performance depending on how datasets are joined
+
+DeviceInfo
+| join DeviceNetworkEvents on DeviceId
+| where isnotempty(OSPlatform)
+| project Timestamp, OSPlatform, InitiatingProcessAccountName
+
+// The default Kusto join deduplicates the left table based on the join column before joining the datasets together.  Because of this, we lose "Hola" and "Ciao".
+
+// If you want to join data together using the inner join you need to specify kind = inner
+
+// The default join can be handy from a performance perspective.
+
+let LeftTable = datatable (key:int, value:string)
+[
+    0, "Hello",
+    0, "Hola",
+    1, "Salut",
+    1, "Ciao",
+    2, "Hallo"
+];
+let RightTable = datatable (key:int, value:string)
+[
+    0, "World",
+    0, "Mundo",
+    1, "Monde",
+    1, "Mondo",
+    2, "Welt"
+];
+LeftTable
+| join kind=inner RightTable on key
+
+// If the column names do not match, we may need to specify which columns to join
+
+DeviceInfo
+| project-rename Id = DeviceId
+| join DeviceNetworkEvents on $left.Id == $right.DeviceId
+
+// union
+// A union merges all rows from each query where the column name and data type match.
+
+DeviceInfo
+| take 1
+| union DeviceNetworkEvents
+
+// summarize
+// The summarize operator enables you to perform 
+// a variety of calculations on data.
+
+// The output of summarize will be a table with one
+// column for each row value you pivoted on as well
+// as one column for each pivot you performed.
+
+DeviceNetworkEvents
+| summarize count() by ActionType
+
+DeviceNetworkEvents
+| summarize earliest = min(Timestamp), latest=max(Timestamp), count=count() by ActionType
+
+// render - creates a chart
+
+DeviceNetworkEvents
+| summarize count() by ActionType
+| render piechart

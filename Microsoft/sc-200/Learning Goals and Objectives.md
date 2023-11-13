@@ -175,7 +175,7 @@ subscriptions and workspaces
 
 ---------------------------------------------------------------------------------------
 
-# DOMAIN 1 STUDY NOTES:
+# MODULE 1 STUDY NOTES:
 
     Zero-hour Auto Purge (ZAP) - retroactively detects and remediates malicious malware phishing, spam or malware threats delivered by email to Microsoft 365 Exchange Online mailboxes. 
     ZAP doesn’t work for standalone Exchange Online Protection (EOP) environments that protect on-premises exchange mailboxes.
@@ -320,3 +320,34 @@ https://learn.microsoft.com/en-us/defender-cloud-apps/what-is-defender-for-cloud
     Blocking risky users via Conditional Access
       - Conditional access for users/identities
       - Conditional access for devices (using intune: endpoint.microsoft.com)
+
+
+# MODULE 3 STUDY NOTES: Microsoft Sentinel
+    - Sentinel is a cloud-native SIEM solution
+    - Tight integration with other cloud services to enable end-to-end visibility and logging throughout your environment
+
+  Microsoft Sentinel Components
+    - Data connectors
+    - Log retention
+    - Work books
+    - Analytics alerts
+    - Threat hunting
+    - Incidents and investigations
+    - Automation playbooks
+
+  Data connectors is the component that enabled ingestion of data from other services
+    - Common formats for log/data ingestion
+      - Syslog
+      - CEF (Common Event Format)
+      - TAXII (Trusted Automated Exchange of Indicator Information)
+      - Azure Services or AWS services
+
+  Workbooks
+    - Visualise your data
+    - Workbooks are dashboards
+
+  
+  
+
+  
+  

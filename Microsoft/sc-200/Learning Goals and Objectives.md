@@ -322,6 +322,18 @@ https://learn.microsoft.com/en-us/defender-cloud-apps/what-is-defender-for-cloud
       - Conditional access for devices (using intune: endpoint.microsoft.com)
 
 
+# MODULE 2 STUDY NOTES: Micrsoft Defender for Cloud
+
+The four elements to the Defender for Cloud Apps framework:
+  1. Discover and control the use of Shadow IT
+  2. Protect your sensitive information anywhere in the cloud
+  3. Protect against cyberthreats and anomalies
+  4. Assess the compliance of your cloud apps
+
+https://learn.microsoft.com/en-us/training/modules/microsoft-cloud-app-security/conditional-access-app-control
+
+
+
 # MODULE 3 STUDY NOTES: Microsoft Sentinel
     - Sentinel is a cloud-native SIEM solution
     - Tight integration with other cloud services to enable end-to-end visibility and logging throughout your environment

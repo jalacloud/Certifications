@@ -339,7 +339,9 @@ https://learn.microsoft.com/en-us/training/modules/microsoft-cloud-app-security/
     - Tight integration with other cloud services to enable end-to-end visibility and logging throughout your environment
 
   Microsoft Sentinel Components
-    - Data connectors
+    - Log Analytics Workspaces (LAWS)
+    - Data connectors; enabled data ingestion into Sentinel
+      - Install data connectors for specific services that you want to collect data for (into Sentinel)
     - Log retention
     - Work books
     - Analytics alerts
@@ -353,12 +355,31 @@ https://learn.microsoft.com/en-us/training/modules/microsoft-cloud-app-security/
       - CEF (Common Event Format)
       - TAXII (Trusted Automated Exchange of Indicator Information)
       - Azure Services or AWS services
+    - Sentinel data connectors can connect to various Azure and non-Azure services (Atlassian, F5 Big-IP, Amazon...etc.)
 
+  On-boarding
+    - Agent can be installed on Azure hosted and non-Azure hosted virtual machines 
+    
   Workbooks
     - Visualise your data
     - Workbooks are dashboards
 
-  
+  Sentinel needs to be added to an new/existing Log Analytics Worksapce
+
+  Permissions and Roles
+    - Grant permissions using Log Analytics Workspaces
+    - Add role assignments via LAWS, not within Sentinel itself
+    - You can assign specific roles for various scopes
+      - Microsoft Sentinel
+      - Log Analytics
+      - Microsoft Azure
+    - Watch out for higher-level permissions assigned to users
+    - Lower-level permissions will be superseded by higher-level role-based access
+
+
+    
+    
+    
   
 
   

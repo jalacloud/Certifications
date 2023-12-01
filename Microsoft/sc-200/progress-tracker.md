@@ -12,8 +12,8 @@ pie
 | No. | Domain | Weighting | Progress |
 | --- | --- | ---| --- |
 | 1 | Microsoft Defender | 25-30% | 90% |
-| 2 | Microsoft Defender for Cloud | 20-25% | 10% |
-| 3 | Microsoft Sentinel | 50-55% | 0% |
+| 2 | Microsoft Defender for Cloud | 20-25% | 25% |
+| 3 | Microsoft Sentinel | 50-55% | 10% |
 
 
 

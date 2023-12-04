@@ -332,6 +332,27 @@ The four elements to the Defender for Cloud Apps framework:
 
 https://learn.microsoft.com/en-us/training/modules/microsoft-cloud-app-security/conditional-access-app-control
 
+**Anomaly detection**
+Risks are evaluated by looking at more than 30 different indicators, grouped into the following risk factors:
+  - Risky IP address
+  - Login failures
+  - Admin activity
+  - Inactive accounts
+  - Location
+  - Impossible travel
+  - Device and user agent
+  - Activity rate
+
+Conditional Access App Control Policies - Features:
+  - Prevent data exfiltration
+  - Protect on download
+  - Prevent upload of unlabeled files
+  - Monitor user sessions for compliance
+  - Block access
+  - Block custom activities
+
+
+
 
 
 # MODULE 3 STUDY NOTES: Microsoft Sentinel

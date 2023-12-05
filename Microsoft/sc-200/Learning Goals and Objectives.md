@@ -324,32 +324,32 @@ https://learn.microsoft.com/en-us/defender-cloud-apps/what-is-defender-for-cloud
 
 # MODULE 2 STUDY NOTES: Micrsoft Defender for Cloud
 
-The four elements to the Defender for Cloud Apps framework:
-  1. Discover and control the use of Shadow IT
-  2. Protect your sensitive information anywhere in the cloud
-  3. Protect against cyberthreats and anomalies
-  4. Assess the compliance of your cloud apps
+    The four elements to the Defender for Cloud Apps framework:
+      1. Discover and control the use of Shadow IT
+      2. Protect your sensitive information anywhere in the cloud
+      3. Protect against cyberthreats and anomalies
+      4. Assess the compliance of your cloud apps
 
 https://learn.microsoft.com/en-us/training/modules/microsoft-cloud-app-security/conditional-access-app-control
 
-**Anomaly detection**
-Risks are evaluated by looking at more than 30 different indicators, grouped into the following risk factors:
-  - Risky IP address
-  - Login failures
-  - Admin activity
-  - Inactive accounts
-  - Location
-  - Impossible travel
-  - Device and user agent
-  - Activity rate
+    **Anomaly detection**
+    Risks are evaluated by looking at more than 30 different indicators, grouped into the following risk factors:
+    - Risky IP address
+    - Login failures
+    - Admin activity
+    - Inactive accounts
+    - Location
+    - Impossible travel
+    - Device and user agent
+    - Activity rate
 
-Conditional Access App Control Policies - Features:
-  - Prevent data exfiltration
-  - Protect on download
-  - Prevent upload of unlabeled files
-  - Monitor user sessions for compliance
-  - Block access
-  - Block custom activities
+    Conditional Access App Control Policies - Features:
+    - Prevent data exfiltration
+    - Protect on download
+    - Prevent upload of unlabeled files
+    - Monitor user sessions for compliance
+    - Block access
+    - Block custom activities
 
 
 
@@ -359,7 +359,7 @@ Conditional Access App Control Policies - Features:
     - Sentinel is a cloud-native SIEM solution
     - Tight integration with other cloud services to enable end-to-end visibility and logging throughout your environment
 
-  Microsoft Sentinel Components
+    Microsoft Sentinel Components
     - Log Analytics Workspaces (LAWS)
     - Data connectors; enabled data ingestion into Sentinel
       - Install data connectors for specific services that you want to collect data for (into Sentinel)
@@ -370,7 +370,7 @@ Conditional Access App Control Policies - Features:
     - Incidents and investigations
     - Automation playbooks
 
-  Data connectors is the component that enabled ingestion of data from other services
+    Data connectors is the component that enabled ingestion of data from other services
     - Common formats for log/data ingestion
       - Syslog
       - CEF (Common Event Format)
@@ -378,16 +378,16 @@ Conditional Access App Control Policies - Features:
       - Azure Services or AWS services
     - Sentinel data connectors can connect to various Azure and non-Azure services (Atlassian, F5 Big-IP, Amazon...etc.)
 
-  On-boarding
+    On-boarding
     - Agent can be installed on Azure hosted and non-Azure hosted virtual machines 
     
-  Workbooks
+    Workbooks
     - Visualise your data
     - Workbooks are dashboards
 
-  Sentinel needs to be added to an new/existing Log Analytics Worksapce
+    Sentinel needs to be added to an new/existing Log Analytics Worksapce
 
-  Permissions and Roles
+    Permissions and Roles
     - Grant permissions using Log Analytics Workspaces
     - Add role assignments via LAWS, not within Sentinel itself
     - You can assign specific roles for various scopes
@@ -397,11 +397,3 @@ Conditional Access App Control Policies - Features:
     - Watch out for higher-level permissions assigned to users
     - Lower-level permissions will be superseded by higher-level role-based access
 
-
-    
-    
-    
-  
-
-  
-  

@@ -271,6 +271,11 @@ https://learn.microsoft.com/en-us/defender-cloud-apps/what-is-defender-for-cloud
     Device onboarding
       - Need to create a role to administer and manage Microsoft Defender for Endpoint
 
+    IMPORTANT!
+    After creating roles, you need to create a device group and provide access to the device group by assigning it to a role that you just created.
+
+    
+
     Attack Surface Reduction (ASR) Rules
       - Attack Surface Reduction (ConfigMgr) <- allows extensive protection against threats using child processes and malicious content execution
       - Exploit Protection

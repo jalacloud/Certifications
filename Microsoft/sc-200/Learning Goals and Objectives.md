@@ -409,3 +409,9 @@ https://learn.microsoft.com/en-us/training/modules/microsoft-cloud-app-security/
     - Watch out for higher-level permissions assigned to users
     - Lower-level permissions will be superseded by higher-level role-based access
 
+    Watchlists //
+    - You can create Sentinel watchlists in Micrsosoft Azure
+    - Uses *.CSV files for source data file upload
+    - Enables event correlation from data sources that you provide (using *.CSV files)
+    
+

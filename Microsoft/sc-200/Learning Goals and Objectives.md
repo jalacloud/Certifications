@@ -200,12 +200,6 @@ subscriptions and workspaces
       1. Event or Activity Data
       2. Entity Data
 
-    The DEFAULT data retention period in Microsoft 365 Defender for Endpoint is 6 months.
-
-    Microsoft Defender for Endpoint can be integrated across Defender for Identity and Defender for Cloud Apps.
-      - This enables a holistic and more complete view of user activity and more accurate data to help detect abnormalities and deviations.
-
-    
 
 ### **KQL**
     
@@ -300,6 +294,10 @@ https://learn.microsoft.com/en-us/defender-cloud-apps/what-is-defender-for-cloud
     Next-Generation Protection Feature
 
     Defender for Endpoint = Identities, Emails, Applications, and Endpoints
+
+    - The DEFAULT data retention period in Microsoft 365 Defender for Endpoint is **6 months**.
+    - Microsoft Defender for Endpoint can be integrated across Defender for Identity and Defender for Cloud Apps.
+      a) This enables a holistic and more complete view of user activity and more accurate data to help detect abnormalities and deviations.
 
     Applications Controls
       - Client behavioural blocking

@@ -369,7 +369,7 @@ https://learn.microsoft.com/en-us/training/modules/microsoft-cloud-app-security/
     - Sentinel is a cloud-native SIEM solution
     - Tight integration with other cloud services to enable end-to-end visibility and logging throughout your environment
 
-    Microsoft Sentinel Components
+### Microsoft Sentinel Components // 
     - Log Analytics Workspaces (LAWS)
     - Data connectors; enabled data ingestion into Sentinel
       - Install data connectors for specific services that you want to collect data for (into Sentinel)
@@ -380,7 +380,7 @@ https://learn.microsoft.com/en-us/training/modules/microsoft-cloud-app-security/
     - Incidents and investigations
     - Automation playbooks
 
-    Data connectors is the component that enabled ingestion of data from other services
+### Data connectors is the component that enabled ingestion of data from other services // 
     - Common formats for log/data ingestion
       - Syslog
       - CEF (Common Event Format)
@@ -397,7 +397,7 @@ https://learn.microsoft.com/en-us/training/modules/microsoft-cloud-app-security/
 
     Sentinel needs to be added to an new/existing Log Analytics Worksapce
 
-    Permissions and Roles
+### Permissions and Roles //
     - Grant permissions using Log Analytics Workspaces
     - Add role assignments via LAWS, not within Sentinel itself
     - You can assign specific roles for various scopes
@@ -411,5 +411,37 @@ https://learn.microsoft.com/en-us/training/modules/microsoft-cloud-app-security/
     - You can create Sentinel watchlists in Micrsosoft Azure
     - Uses *.CSV files for source data file upload
     - Enables event correlation from data sources that you provide (using *.CSV files)
-    
+
+### Types of Analytics Rules //
+    - Scheduled Query Rules (KQL queries)
+    - Microsoft Incident Creation Rules (MICR):
+      Automatically generate incidents from MS 365 Defender Alerts
+    - Fusion Rules: Uses ML to correlate and merge low-fidelity, disparate alerts into high-fidelity incidents
+    - ML Behaviour Analytics Rules: Uses advanced ML algorithms to identify unusual behaviours and deviation from established patterns
+    - Near-real-time (NRT) analytics rules: Analytics rule that is designed to detect threat and generate alerts rapidly, almost as soon as the relevant data is ingested
+
+### Response Automation and Alerts/Incidents
+    RESPONSE AUTOMATION
+    - Analytics rules can be integrated with automated response actions, known as playbooks (logic apps) in MS Sentinel
+    - Playbooks are powered by Azure Logic Apps and can perform a range of automated tasks when a rule is triggered
+
+    ALERTS AND INCIDENTS
+    - When analytics rules are triggered it generates alerts
+    - Generated alerts can be aggregated into incidents, providing a consolidated view of related alerts for more efficient investigation and response
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

@@ -417,6 +417,8 @@ https://learn.microsoft.com/en-us/training/modules/microsoft-cloud-app-security/
     - Microsoft Incident Creation Rules (MICR):
       Automatically generate incidents from MS 365 Defender Alerts
     - Fusion Rules: Uses ML to correlate and merge low-fidelity, disparate alerts into high-fidelity incidents
+      *Good for detecting multi-stage attacks in Micrsoft
+      *Fuses together lots of different signals across several Microsoft products
     - ML Behaviour Analytics Rules: Uses advanced ML algorithms to identify unusual behaviours and deviation from established patterns
     - Near-real-time (NRT) analytics rules: Analytics rule that is designed to detect threat and generate alerts rapidly, almost as soon as the relevant data is ingested
 

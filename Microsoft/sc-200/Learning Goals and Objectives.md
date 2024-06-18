@@ -413,11 +413,15 @@ https://learn.microsoft.com/en-us/training/modules/microsoft-cloud-app-security/
     - Enables event correlation from data sources that you provide (using *.CSV files)
 
 ### Types of Analytics Rules //
+    - Anomaly Detection Rules
     - Scheduled Query Rules (KQL queries)
-    - Microsoft Incident Creation Rules (MICR):
+      *Provides the most amount of customisation
+      *Uses KQL queries to enable custom detection logic
+    - Microsoft Security - Also referred to as Microsoft Incident Creation Rules (MICR):
       Automatically generate incidents from MS 365 Defender Alerts
     - Fusion Rules: Uses ML to correlate and merge low-fidelity, disparate alerts into high-fidelity incidents
       *Good for detecting multi-stage attacks in Micrsoft
+      *Cannot edit Fusion rules
       *Fuses together lots of different signals across several Microsoft products
     - ML Behaviour Analytics Rules: Uses advanced ML algorithms to identify unusual behaviours and deviation from established patterns
     - Near-real-time (NRT) analytics rules: Analytics rule that is designed to detect threat and generate alerts rapidly, almost as soon as the relevant data is ingested

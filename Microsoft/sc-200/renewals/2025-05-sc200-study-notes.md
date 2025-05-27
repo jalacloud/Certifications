@@ -22,3 +22,6 @@ The three implementation options:
 2. Single-Tenant with regional Microsoft Sentinel Workspaces
 3. Multiple tenants
 
+#### Use the same log analytics workspace as Microsoft Defender for Cloud
+Use the same workspace for both Microsoft Sentinel and Microsoft Defender for Cloud, so that all logs collected by Microsoft Defender for Cloud can also be ingested and used by Microsoft Sentinel. The default workspace created by Microsoft Defender for Cloud won't appear as an available workspace for Microsoft Sentinel.
+

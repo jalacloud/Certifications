@@ -25,3 +25,8 @@ The three implementation options:
 #### Use the same log analytics workspace as Microsoft Defender for Cloud
 Use the same workspace for both Microsoft Sentinel and Microsoft Defender for Cloud, so that all logs collected by Microsoft Defender for Cloud can also be ingested and used by Microsoft Sentinel. The default workspace created by Microsoft Defender for Cloud won't appear as an available workspace for Microsoft Sentinel.
 
+### Types of Analytics Rules
+* Scheduled Query Rule
+* Microsoft Incident Creation Rule
+* Near Real Time (NRT) Rule 
+* Fusion Rule (_Cannot be edited/modified_)
